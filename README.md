@@ -268,11 +268,190 @@ SHANHE_DB_PORT=13306 python3 scripts/oversell_check.py
 
 ## 常见问题
 
-- 端口被占用：Docker 改 `SHANHE_MYSQL_PORT`、`SHANHE_BACKEND_PORT`、`SHANHE_FRONTEND_PORT`。本机脚本改 `SHANHE_DB_PORT`、`SHANHE_BACKEND_PORT`、`SHANHE_FRONTEND_PORT`（不读 `SHANHE_MYSQL_PORT`）。手动部署时同时改 `application.yml` 的 `server.port` 和 `frontend/vite.config.js` 的 `server.port` 与 `/api` 代理目标。容器内部的 3306 和 8088 不用改。
-- 后端拒绝连接：MySQL 未启动，或账号与 `application.yml`（或 `SPRING_DATASOURCE_*`）不一致。
-- 中文变问号：导入时漏了 `--default-character-set=utf8mb4`。
-- 统计图最右一天是空的：导入会话时区不是 `+08:00`，与应用的 `Asia/Shanghai` 差了一天。按第 1 节的命令重新导入。
-- Docker 里的数据没有更新：初始化 SQL 只在数据卷第一次创建时执行。要重来，先 `remove-macos.command --purge-data` 或 `remove-windows.bat --purge-data`，再部署。
-- 前台接口 401：未登录或令牌过期。`shanhe.jwt.expire-hours` 为 72。
+每一条按现象、原因、处理来写。
 
-设计说明见 [docs/网站设计报告.md](docs/网站设计报告.md)。
+### Docker 起不来，或提示需要 Compose v2
+
+**现象：** `deploy-macos.command` / `deploy-windows.bat` 报 Docker 不可用，或 `Docker Compose v2 or newer is required`。
+
+**原因：** 本机没有正在运行的 Docker，或只有旧的 `docker-compose`（带连字符）而没有 `docker compose`。脚本用 `docker compose version` 判断。Docker 没启动时，macOS 会尝试打开 Docker Desktop 并最多等 120 秒，然后提示改用已在运行的 OrbStack 或 Colima；Windows 同样等 120 秒，并接受已经运行的 WSL 引擎。
+
+**处理：** 安装并打开 [Docker Desktop](https://www.docker.com/products/docker-desktop/)，或先自行启动 Engine，确认 `docker info` 和 `docker compose version` 都能成功，再执行部署脚本。
+
+### 端口 13306、8088 或 43123 被占用
+
+**现象：** 部署失败，日志里是端口绑定错误。脚本会提示设置 `SHANHE_MYSQL_PORT`、`SHANHE_BACKEND_PORT` 或 `SHANHE_FRONTEND_PORT`。失败时已有数据卷会保留。
+
+**原因：** Compose 默认把 MySQL 映射到宿主机 `13306`、后端 `8088`、前台 `43123`。本机脚本的 MySQL 默认是 `3306`（`SHANHE_DB_PORT`），网站端口与 Compose 相同。
+
+**处理：** Docker 部署改这三个 `SHANHE_*` 变量后重跑脚本。打开的网站地址跟着 `SHANHE_FRONTEND_PORT` 走。容器内部仍是 MySQL `3306`、后端 `8088`，JDBC 仍是 `jdbc:mysql://mysql:3306/shanhe`。本机脚本改 `SHANHE_DB_PORT`、`SHANHE_BACKEND_PORT`、`SHANHE_FRONTEND_PORT`，它不读 `SHANHE_MYSQL_PORT`。手动部署时同时改 `application.yml` 的 `server.port` 和 `frontend/vite.config.js` 的 `server.port` 与 `/api` 的 `target`。
+
+### 等到超时，页面一直没就绪
+
+**现象：** 脚本在构建或健康检查后退出，并打印 `docker compose ps` 与最近 60 行日志。
+
+**原因：** `SHANHE_WAIT_SECONDS` 默认 `180`。Docker 脚本把它传给 `docker compose up --wait --wait-timeout`，随后再花同样长的时间请求 `http://127.0.0.1:${SHANHE_FRONTEND_PORT}/api/home`，直到 JSON 里 `code` 为 0 且 `data` 为对象。本机脚本只用它等待同一个地址。值必须是大于等于 1 的整数，否则脚本直接报 `Invalid SHANHE_WAIT_SECONDS`。首次构建要拉镜像，180 秒可能不够。
+
+**处理：** 加大等待，例如 `SHANHE_WAIT_SECONDS=300 bash deploy-macos.command`（Windows 先 `set SHANHE_WAIT_SECONDS=300`）。同时看日志里是构建失败、数据库未健康，还是端口冲突。
+
+### 后端连不上数据库
+
+**现象：** 后端日志出现连接拒绝，或账号密码错误。前台 `/api/home` 没有数据。
+
+**原因：** 手动部署读 `application.yml`：`127.0.0.1:3306`，用户 `shanhe`，密码 `shanhe123`。Compose 用环境变量覆盖为 `jdbc:mysql://mysql:3306/shanhe`、用户 `root`、密码 `root123`。本机脚本用 `SHANHE_DB_HOST`、`SHANHE_DB_PORT` 和实际连上的账号写入 `SPRING_DATASOURCE_URL`、`SPRING_DATASOURCE_USERNAME`、`SPRING_DATASOURCE_PASSWORD`。MySQL 没启动，或这三处不一致，都会拒绝连接。
+
+**处理：** 先用同一组主机、端口、账号登录 `mysql`。手动部署保证已经导入 `sql/schema.sql`（其中会创建 `shanhe` 用户）。改端口或密码时，文件和 `SPRING_DATASOURCE_*` 一起改。
+
+### MySQL 8 的认证、字符集和时区
+
+**现象：** 驱动报 `Public Key Retrieval is not allowed`；页面中文变成问号；统计图最右边一天是空的。
+
+**原因：** MySQL 8 默认认证插件是 `caching_sha2_password`。本仓库的 JDBC 地址已经带 `useSSL=false&allowPublicKeyRetrieval=true`（`application.yml`，以及 Compose、本机脚本拼出的 `SPRING_DATASOURCE_URL`）。导入时若没用 `utf8mb4`，中文会坏。订单和「今天」按 `Asia/Shanghai` 计算；导入会话不是 `+08:00` 时，`CURDATE()` 和 JVM 会差一天。Compose 的 MySQL 还设置了 `--default-time-zone=+08:00` 和 `utf8mb4`。
+
+**处理：** 保留 JDBC 地址里的 `useSSL=false` 和 `allowPublicKeyRetrieval=true`。导入使用第 1 节那两条带 `--default-character-set=utf8mb4` 和 `SET time_zone='+08:00'` 的命令。字符集或时区已经错了的库，用这两条命令重新导入；`schema.sql` 会清掉业务表。
+
+### 改了 SQL，Docker 里的数据却没变
+
+**现象：** 修改 `sql/schema.sql` 或 `sql/data.sql` 后重新 `up`，库里仍是旧数据。
+
+**原因：** 这两个文件挂在 `/docker-entrypoint-initdb.d/`，只在数据卷第一次创建时执行。
+
+**处理：** 确认要清空后再删卷。macOS：`bash remove-macos.command --purge-data`。Windows：`remove-windows.bat --purge-data`。等价命令是 `docker compose -p shanhe -f docker-compose.yml down --rmi local --volumes`，然后重新部署。不加 `--purge-data` 只删容器和本项目镜像，卷还在。本机库要用 `remove-local-macos.command --purge-data` 或 `remove-local-windows.bat --purge-data`，那是 `DROP DATABASE shanhe`，不是删 Docker 卷。
+
+### macOS 双击脚本被系统拦住，或没有执行权限
+
+**现象：** 双击 `.command` 时系统提示无法打开，或终端显示 `Permission denied`。
+
+**原因：** 从浏览器或压缩包得到的脚本可能带隔离属性。双击还要求文件可执行。四个 `.command` 在仓库里都是可执行文件；执行位丢失后双击会失败。
+
+**处理：** 在仓库根目录用 bash 运行，不依赖执行位，例如 `bash deploy-macos.command`。仍要双击时，先 `chmod +x deploy-macos.command remove-macos.command deploy-local-macos.command remove-local-macos.command`。若隔离属性拦住，对对应文件执行 `xattr -d com.apple.quarantine`，再双击。
+
+### Windows 的 bat 无法识别，或提示没有 winget
+
+**现象：** 双击 `.bat` 后命令被拆开、出现意外的 `'...' is not recognized`；或本机部署脚本写 `winget is required`。
+
+**原因：** 仓库里的 `deploy-windows.bat`、`deploy-local-windows.bat`、`remove-windows.bat`、`remove-local-windows.bat` 是 CRLF、无 BOM 的 ASCII。被编辑器存成仅 LF 后，`cmd` 会把续行和标签解析错。`winget` 只出现在 `deploy-local-windows.bat`：缺少 JDK、Maven、Node.js 或 MySQL 时它才会调用。Docker 的 `deploy-windows.bat` 不用 winget。
+
+**处理：** 把被改成 LF 的 bat 存回 CRLF 再运行。缺少 winget 时安装 App Installer，或自行装好对应软件并保证 `java`、`mvn`、`node`、`mysql` 在 PATH 上，然后重跑。
+
+### 本机脚本登不上 MySQL，Windows 也不询问密码
+
+**现象：** `Cannot connect` / `login failed`，并提示设置 `SHANHE_DB_USER` 和 `SHANHE_DB_PASSWORD`。Windows 上双击结束后直接失败，没有密码输入。
+
+**原因：** 未设置 `SHANHE_DB_USER` 时，脚本先试 `root` 和空密码，再试 `shanhe` / `shanhe123`。macOS 仅在这两次都失败、标准输入是终端、且没有 `--no-pause` 时才询问。`deploy-local-windows.bat` 没有询问步骤。一旦设置了 `SHANHE_DB_USER`，就只使用这一对，密码缺省为空，不再试 `shanhe` / `shanhe123`。Windows 用 winget 安装的 MySQL 安装程序可能另设了 root 密码。默认主机是 `127.0.0.1`，端口是 `SHANHE_DB_PORT`（默认 `3306`）。
+
+**处理：** 显式设置变量后再跑，例如 macOS：
+
+```bash
+SHANHE_DB_USER=root SHANHE_DB_PASSWORD='安装时设置的密码' bash deploy-local-macos.command
+```
+
+Windows 先 `set SHANHE_DB_USER=root` 和 `set SHANHE_DB_PASSWORD=...`。库已经在别的机器上时再加 `SHANHE_DB_HOST`。不要用 `SHANHE_MYSQL_PORT`，本机脚本不读它。
+
+### 前台 `/api` 返回 404 或 502
+
+**现象：** 页面能开，接口失败。开发者工具里 `/api/home` 等为 404 或 502。`scripts/local-frontend.mjs` 失败时正文是 `Bad gateway`。
+
+**原因：** 浏览器请求的是前台同源的 `/api`（axios 的 `baseURL`）。三条代理不一样：
+
+- `npm run dev`：Vite 把 `/api` 转到 `http://127.0.0.1:8088`。后端没启动时连接失败。
+- `npm run preview`：`vite.config.js` 没有 `preview.proxy`，`/api` 找不到后端，得到 404。
+- `node scripts/local-frontend.mjs`：转到 `SHANHE_BACKEND_HOST`:`SHANHE_BACKEND_PORT`（默认 `127.0.0.1:8088`）。连不上就是 502。
+- Compose 的 `frontend/nginx.conf`：`/api/` 转到 `http://backend:8088`。`backend` 只在 Compose 网络里能解析。把这份配置原样放到宿主机 Nginx 上，也会 502。
+
+**处理：** 先执行 `curl http://127.0.0.1:8088/api/health`，确认后端返回 `{"code":0,"message":"ok","data":"山河纪"}`。开发用 `npm run dev`。本机生产构建用仓库根目录的 `node scripts/local-frontend.mjs`。宿主机 Nginx 把上游写成 `http://127.0.0.1:8088`。Compose 里保持服务名 `backend`。
+
+### 登录之后出现 401
+
+**现象：** 打开订单、收藏、个人中心或后台时接口为 HTTP 401，JSON 里 `code` 为 401、`message` 为「请先登录」。页面会清掉本地登录并转到 `/login`。
+
+**原因：** `JwtInterceptor` 读取 `Authorization: Bearer`。下列情况都当成未登录：没有令牌、签名不对、超过 `shanhe.jwt.expire-hours`（72 小时）、用户 `status` 不是 1，或令牌里的 `ver` 和 `user.token_version` 不一致。修改密码会把 `token_version` 加一，旧令牌立即失效。令牌存在 `localStorage` 的 `shanhe_token`。已登录但角色不是 `ADMIN` 时，`/api/admin` 返回 403「需要管理员权限」；路由守卫会把非管理员从 `/admin` 送回 `/`。
+
+**处理：** 用第 1 节的种子账号重新登录。管理员是 `admin` / `admin123`，游客是 `linwan` / `user123`。改过密码后必须重新登录。
+
+### 介绍视频打不开，或进度不是 `#t=` 的位置
+
+**现象：** 详情页出现「当前浏览器无法播放此格式」，或视频长时间停在封面；能播时也不是从地址里的秒数开始。
+
+**原因：** `<video>` 使用 `controls`、`playsinline`、`preload="metadata"`，把 `scenic_spot.video_url` 原样当作 `src`，没有 `autoplay`，也没有在脚本里设置 `currentTime`。外链失败时同样会触发 `error`，页面就显示上面那句，并不只表示编码不对。九寨沟、桂林漓江、厦门鼓浪屿、泰山、苏州拙政园、乐山大佛、重庆洪崖洞、三亚亚龙湾、张掖丹霞的地址在 Archive.org，其余若干条在 `upload.wikimedia.org`。起播秒数是 URL 里的 `#t=`（例如九寨沟 `#t=298`）。有的浏览器要等元数据加载后才应用这个片段，有的会忽略。当前种子地址都是 `https://`，站点默认是 `http://127.0.0.1:43123`，因此不是 HTTPS 页面去拉 HTTP 资源。页面打开后视频不会自己播放，要点控件。
+
+**处理：** 在新标签直接打开该 `video_url`。若带 `#t=` 的地址打不开，先去掉 `#t=` 及后面的部分再试文件本身。文件也打不开时，换一个能访问 Archive.org 或 Wikimedia 的网络。片段被忽略时，用播放器进度条自行拖到该秒数。不要给 `<video>` 加上 `autoplay` 来“修”这个现象：当前页面本来就等用户点击。
+
+### 峨眉山、曲阜三孔、平遥古城没有视频
+
+**现象：** 这三处没有播放器，文案是「暂无介绍视频，可先浏览景点图集。」
+
+**原因：** `sql/data.sql` 里这三条的 `video_url` 为 NULL。`spot.videoUrl` 为空时模板不渲染 `<video>`。
+
+**处理：** 这是当前种子数据，不必排查播放器。
+
+### 旧库仍在请求 `/media/videos/`
+
+**现象：** 详情视频 404，地址形如 `/media/videos/jiuzhaigou.mp4`。
+
+**原因：** 更早的种子把介绍视频放在 `frontend/public/media/videos/<slug>.mp4`，这些文件已经从仓库删除。已经初始化的 MySQL 不会因为仓库里的 `data.sql` 更新而改写旧行。`sql/update_video_url.sql` 的注释把这种情况称为上一版的本地文件地址，并按景点名改成现在的外链。
+
+**处理：** 全新导入当前 `sql/data.sql` 的库不用再跑。已有库执行：
+
+```bash
+mysql --default-character-set=utf8mb4 -u root -p shanhe < sql/update_video_url.sql
+```
+
+Compose 里的库在宿主机 `127.0.0.1` 和 `SHANHE_MYSQL_PORT`（默认 13306），root 密码 `root123`。
+
+### 图片打不开，但和视频外链无关
+
+**现象：** 封面或图集裂图，同时视频外链时通时不通。
+
+**原因：** 页面图片来自站内 `frontend/public/media/images/*.webp`，库里的路径是 `/media/images/...`。Wikimedia 只写在图片署名（`spot_image.credit`）里，浏览器不会为此去请求 Wikimedia。
+
+**处理：** 在网站上直接打开该 `/media/images/...` 路径。开发服务器读 `frontend/public`；生产构建后文件在 `frontend/dist`。文件不在这两处时，补回 WebP 或修正数据库里的路径。这和 Archive.org 是否可达无关。
+
+## 系统说明
+
+山河纪是一个全国热门景点文旅门户。游客查看景点、路线、游记和资讯，登录后预约门票、收藏和管理自己的订单；管理员维护内容、审核游记并处理订单。种子账号见上文「打开并验证」：管理员 `admin` / `admin123`，游客 `linwan` / `user123`。
+
+### 游客端
+
+前台路由在 `frontend/src/router/index.js`，导航在 `frontend/src/layouts/UserLayout.vue`。
+
+- 首页 `/`：轮播、主题分类、按热度排列的景点、推荐路线、资讯。
+- 景点 `/spots`：关键词同时匹配名称和城市，并可按分类、省份、票价筛选，排序有热度、最新、价格升序和降序。
+- 详情 `/spots/:id`：图集、介绍视频、开放时间、地址、高德地图链接、在售门票、评论、收藏，以及同分类的其他景点。
+- 路线 `/routes`、`/routes/:id`：多日行程。
+- 游记 `/notes`：列表和详情对已通过（`APPROVED`）的游记公开。发布、编辑需要登录，新游记和再次保存后的状态为 `PENDING`。可以点赞。
+- 资讯 `/news`、`/news/:id`。
+- 预约 `/book/:id` 和个人订单 `/orders` 需要登录。游客只能取消自己状态为 `PENDING` 的订单。个人中心 `/user` 可改资料和密码，并查看收藏（景点、路线、游记）和自己的游记。
+- 注册 `/register` 创建的角色固定为 `USER`。
+
+### 管理后台
+
+`/admin` 要求已登录且 `role` 为 `ADMIN`。侧栏与路由对应：
+
+| 路径 | 页面 |
+| --- | --- |
+| `/admin/dashboard` | 数据统计：用户、在售景点、有效订单、成交额、今日订单、游记数量，以及近 14 日订单、热门景点订单、近 14 日新增用户、景点分类四张图 |
+| `/admin/spots` | 景点管理 |
+| `/admin/categories` | 分类管理 |
+| `/admin/tickets` | 票种管理 |
+| `/admin/routes` | 路线管理 |
+| `/admin/orders` | 订单管理。待出行订单可改为已完成或已取消 |
+| `/admin/notes` | 游记审核：通过（`APPROVED`）或驳回（`REJECTED`） |
+| `/admin/comments` | 评论管理 |
+| `/admin/users` | 用户管理 |
+| `/admin/banners` | 轮播管理 |
+| `/admin/news` | 资讯管理 |
+
+已有订单的景点不能物理删除，接口返回「该景点已有订单，请改为下架」。仍被路线引用时，要先从路线里移除。已有订单的票种不能删除，也不能改所属景点。
+
+### 结构与接口
+
+浏览器只访问前台同源的 `/api`。Vite 开发服务器、`scripts/local-frontend.mjs` 和 Compose 里的 Nginx 再把它转到 Spring Boot。后端上下文路径就是 `/api`，管理接口在 `/api/admin`。响应体为 `code`、`message`、`data`，`code` 为 0 表示成功。
+
+后端包在 `com.shanhe.portal` 下：`controller`、`service`、`mapper`（MyBatis-Plus）、`entity`、`dto`、`security`、`config`。数据库是 MySQL 库 `shanhe`。业务表包括 `user`、`spot_category`、`scenic_spot`、`spot_image`、`ticket_type`、`route`、`route_spot`、`travel_note`、`note_like`、`comment`、`favorite`、`booking_order`、`news`、`banner`。
+
+登录签发 JWT，放在 `Authorization: Bearer` 中，密钥和有效期来自 `application.yml` 的 `shanhe.jwt`（默认 72 小时）。前端把令牌记在 `localStorage` 的 `shanhe_token`。密码用 BCrypt。公开的 GET 可以不登录；`/api/orders`、`/api/favorites`、`/api/user`、`/api/auth/me`、`/api/notes/mine`、游记和评论的写操作，以及全部 `/api/admin` 必须登录。管理接口另外要求角色 `ADMIN`。
+
+预约在一个事务里防止超卖：先对票种 `SELECT ... FOR UPDATE`，再对当日未取消订单的数量 `SUM(...) FOR UPDATE`，与 `ticket_type.daily_stock` 比较，超出则拒绝。取消只是把状态改成 `CANCELLED`，之后不再计入已售。游玩日期使用 `Asia/Shanghai`，且须在今天起 60 天内。首页聚合有 Caffeine 缓存（`maximumSize=300,expireAfterWrite=120s`），景点、票种、路线等内容保存后由 `HomeCache` 清掉名为 `home` 的缓存。保存票种时会按在售票的最低价重算景点 `price_from`，没有在售票时写成空。
+
+更完整的设计说明见 [docs/网站设计报告.md](docs/网站设计报告.md)。
