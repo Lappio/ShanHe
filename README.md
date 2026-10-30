@@ -39,6 +39,8 @@ docker compose up --build
 
 双击一键脚本效果相同：macOS 用 `deploy-macos.command`，Windows 用 `deploy-windows.bat`。卸载用 `remove-macos.command` 或 `remove-windows.bat`。默认保留数据库卷，加上 `--purge-data` 才删除数据。
 
+不用 Docker、直接在本机跑：macOS 用 `deploy-local-macos.command`（缺的 JDK、Maven、Node.js、MySQL 由 Homebrew 安装），Windows 用 `deploy-local-windows.bat`（由 winget 安装）。本机脚本连的是已经在跑的 MySQL，默认 `127.0.0.1:3306`，不会覆盖已有的 `shanhe` 库。停用 `remove-local-macos.command` 或 `remove-local-windows.bat`，同样要 `--purge-data` 才删库，并且不会卸载 JDK、Node.js、MySQL 或 Homebrew。两种方式的对照见 [docs/部署文档.md](docs/部署文档.md)。
+
 更完整的步骤和时区说明见 [docs/部署文档.md](docs/部署文档.md)。设计说明见 [docs/网站设计报告.md](docs/网站设计报告.md)，同目录的 [docs/网站设计报告.pdf](docs/网站设计报告.pdf) 是按 A4、页边距 2.54 cm、小四、1.5 倍行距导出的正文，页数以这份 PDF 为准。上交压缩包的目录名和排除项见 [docs/打包说明.md](docs/打包说明.md)。
 
 ## 图片与视频
