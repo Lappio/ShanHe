@@ -28,7 +28,7 @@
 
       <section class="section">
         <div class="section-head">
-          <div><h2 class="serif">按主题找</h2><p>从历史古迹走到海滨，分类来自后台。</p></div>
+          <div><h2 class="serif">按主题找</h2><p>从历史古迹、自然风光、园林建筑，到城市地标、宗教文化与海滨海岛。</p></div>
         </div>
         <div class="cat-row">
           <button v-for="item in categories" :key="item.id" class="cat-chip" @click="$router.push({ path: '/spots', query: { categoryId: item.id } })">

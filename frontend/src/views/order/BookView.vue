@@ -39,7 +39,7 @@
         <img :src="spot.coverUrl" :alt="spot.name" style="border-radius:12px;height:180px;width:100%;object-fit:cover" />
         <h3>{{ spot.name }}</h3>
         <p>应付 <strong>{{ money(total) }}</strong></p>
-        <p class="muted">演示环境不会产生真实扣款。提交后可在“我的订单”中查看或取消待出行订单。</p>
+        <p class="muted">提交后可在“我的订单”中查看或取消待出行订单。</p>
       </aside>
     </div>
   </div>
