@@ -29,13 +29,15 @@ cd frontend && npm install && npm run dev
 
 前台 <http://127.0.0.1:43123> ，接口 <http://127.0.0.1:8088> 。
 
-也可以：
+也可以用 Docker Compose。项目名固定为 `shanhe`。MySQL 发布在宿主机 `13306`（容器内仍是 3306，避免占用本机 MySQL），后端 `8088`，前台 `43123`。这三个宿主机端口分别对应 `SHANHE_MYSQL_PORT`、`SHANHE_BACKEND_PORT`、`SHANHE_FRONTEND_PORT`。
 
 ```bash
 docker compose up --build
 ```
 
-浏览器打开 <http://127.0.0.1:43123> 。
+浏览器打开 <http://127.0.0.1:43123> 。本机连接 Compose 里的 MySQL 用 `127.0.0.1:13306`，root 密码 `root123`。
+
+双击一键脚本效果相同：macOS 用 `deploy-macos.command`，Windows 用 `deploy-windows.bat`。卸载用 `remove-macos.command` 或 `remove-windows.bat`。默认保留数据库卷，加上 `--purge-data` 才删除数据。
 
 更完整的步骤和时区说明见 [docs/部署文档.md](docs/部署文档.md)。设计说明见 [docs/网站设计报告.md](docs/网站设计报告.md)，同目录的 [docs/网站设计报告.pdf](docs/网站设计报告.pdf) 是按 A4、页边距 2.54 cm、小四、1.5 倍行距导出的正文，页数以这份 PDF 为准。上交压缩包的目录名和排除项见 [docs/打包说明.md](docs/打包说明.md)。
 

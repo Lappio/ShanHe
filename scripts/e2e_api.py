@@ -7,6 +7,7 @@ import urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+# 只访问后端 HTTP。8088 是 application.yml 和 Compose 的默认宿主机端口（SHANHE_BACKEND_PORT）。
 BASE = "http://127.0.0.1:8088/api"
 
 
