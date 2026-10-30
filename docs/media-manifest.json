@@ -89,12 +89,22 @@
       ],
       "thumb": "images/badaling_thumb.webp",
       "video": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm",
-        "author": "Johnny Xmas",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "source_page": "https://commons.wikimedia.org/wiki/File:Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm",
-        "note": "Commons 上无八达岭段的自由授权视频；此为金山岭长城航拍，可作长城通用介绍视频"
+        "url": "/media/videos/badaling.mp4",
+        "file": "videos/badaling.mp4",
+        "author": "B站 潇庭木下",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1y4411y7Ji",
+        "bvid": "BV1y4411y7Ji",
+        "sha256": "6114dd3d01d525ec6719292108083c8a06193a68119ad8f40a9ef9d05113849b",
+        "duration_seconds": 20.02,
+        "replaced": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm",
+          "author": "Johnny Xmas",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm",
+          "note": "Commons 上无八达岭段的自由授权视频；此为金山岭长城航拍，可作长城通用介绍视频"
+        }
       }
     },
     {
@@ -282,7 +292,16 @@
         }
       ],
       "thumb": "images/jiuzhaigou_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/jiuzhaigou.mp4",
+        "file": "videos/jiuzhaigou.mp4",
+        "author": "B站 NoOne晓东",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1MCUVB3EVF",
+        "bvid": "BV1MCUVB3EVF",
+        "sha256": "7a24a432b51aa2f64216136359606536ad0f9b94cb2d329af3c2df257023a971",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "秦始皇兵马俑",
@@ -372,7 +391,16 @@
         }
       ],
       "thumb": "images/lijiang_guilin_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/lijiang_guilin.mp4",
+        "file": "videos/lijiang_guilin.mp4",
+        "author": "B站 迈悦旅行家",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1e7411M73E",
+        "bvid": "BV1e7411M73E",
+        "sha256": "3d78e432c68a34f3e49456e6e16024a04374196a79fc82b8719e57c02ff0595e",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "布达拉宫",
@@ -462,7 +490,16 @@
         }
       ],
       "thumb": "images/gulangyu_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/gulangyu.mp4",
+        "file": "videos/gulangyu.mp4",
+        "author": "B站 陈小羊看世界",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV17V4y1e7tU",
+        "bvid": "BV17V4y1e7tU",
+        "sha256": "eec8e6abce7e70453854eda7f2b008ac9c954763d03a7c1360ba70ebe51c6e3f",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "泰山",
@@ -504,7 +541,16 @@
         }
       ],
       "thumb": "images/taishan_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/taishan.mp4",
+        "file": "videos/taishan.mp4",
+        "author": "B站 信标工坊",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1dH28YPEtt",
+        "bvid": "BV1dH28YPEtt",
+        "sha256": "b5bf8c953d3606e275c55e2793ffc8f1f0d810a6bdbb5586898466bbb1605e4b",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "丽江古城",
@@ -594,7 +640,16 @@
         }
       ],
       "thumb": "images/zhuozhengyuan_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/zhuozhengyuan.mp4",
+        "file": "videos/zhuozhengyuan.mp4",
+        "author": "B站 楚狂-漫游中国",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1yw411872w",
+        "bvid": "BV1yw411872w",
+        "sha256": "0b1163d294096f60796f2f24337e62b90e952b73bf8e9ccfbc081af551f4fda6",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "上海外滩",
@@ -684,7 +739,16 @@
         }
       ],
       "thumb": "images/qufu_sankong_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/qufu_sankong.mp4",
+        "file": "videos/qufu_sankong.mp4",
+        "author": "B站 遠漂記",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1P54y1S7fh",
+        "bvid": "BV1P54y1S7fh",
+        "sha256": "57eb0a6d0ac55c79c71d24dc470c10bd7c5b068b6b21abebca81946d55845024",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "峨眉山",
@@ -726,7 +790,16 @@
         }
       ],
       "thumb": "images/emeishan_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/emeishan.mp4",
+        "file": "videos/emeishan.mp4",
+        "author": "B站 CC航拍",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1BV411K71r",
+        "bvid": "BV1BV411K71r",
+        "sha256": "0a3be43a7b4d74be956510a02828b5ce2a1aab22728fa93db24fa97c715204ec",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "乐山大佛",
@@ -768,7 +841,16 @@
         }
       ],
       "thumb": "images/leshan_dafo_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/leshan_dafo.mp4",
+        "file": "videos/leshan_dafo.mp4",
+        "author": "B站 著名电影电视剧观众w",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1BV4y1M7Qa",
+        "bvid": "BV1BV4y1M7Qa",
+        "sha256": "a25f725121db57c0d6b010f7c8b56322e661233c7009d2da78ed3dbd03c2cd4c",
+        "duration_seconds": 20.02
+      }
     },
     {
       "name": "重庆洪崖洞",
@@ -810,7 +892,16 @@
         }
       ],
       "thumb": "images/hongyadong_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/hongyadong.mp4",
+        "file": "videos/hongyadong.mp4",
+        "author": "B站 躺下等存款自己增加",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1DCo1Y8EMw",
+        "bvid": "BV1DCo1Y8EMw",
+        "sha256": "af904c799e8452fb0787b35fa57ac0d1852d757de189f3739c7f9245eaaef934",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "敦煌莫高窟",
@@ -900,7 +991,16 @@
         }
       ],
       "thumb": "images/yalongwan_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/yalongwan.mp4",
+        "file": "videos/yalongwan.mp4",
+        "author": "B站 渣渣辉摄影",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1iRWNzWERq",
+        "bvid": "BV1iRWNzWERq",
+        "sha256": "68b028c3ab549d76eca0bcc830e4c378c1d3a7bbb3a4cb67e51a6de5a56ff0c6",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "哈尔滨中央大街",
@@ -990,7 +1090,16 @@
         }
       ],
       "thumb": "images/zhangye_danxia_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/zhangye_danxia.mp4",
+        "file": "videos/zhangye_danxia.mp4",
+        "author": "B站 ChinaEX123",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1oT4y1L7FZ",
+        "bvid": "BV1oT4y1L7FZ",
+        "sha256": "103c888966c45f6ba8ecb00363895dcb3656d51d141806d5db13fd49f010b563",
+        "duration_seconds": 20.0
+      }
     },
     {
       "name": "黄果树瀑布",
@@ -1033,12 +1142,22 @@
       ],
       "thumb": "images/huangguoshu_thumb.webp",
       "video": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm",
-        "author": "中国新闻网",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "source_page": "https://commons.wikimedia.org/wiki/File:2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm",
-        "note": "片头为张家界，后半段为黄果树瀑布（共用）"
+        "url": "/media/videos/huangguoshu.mp4",
+        "file": "videos/huangguoshu.mp4",
+        "author": "B站 DANC弹壳",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1UW4y1b7w9",
+        "bvid": "BV1UW4y1b7w9",
+        "sha256": "e446abcb41ccf273862498097c4849801b7d3c9ebedcc2219ee75907bb26c5d5",
+        "duration_seconds": 20.0,
+        "replaced": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm",
+          "author": "中国新闻网",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm",
+          "note": "片头为张家界，后半段为黄果树瀑布（共用）"
+        }
       }
     },
     {
@@ -1081,7 +1200,16 @@
         }
       ],
       "thumb": "images/pingyao_thumb.webp",
-      "video": null
+      "video": {
+        "url": "/media/videos/pingyao.mp4",
+        "file": "videos/pingyao.mp4",
+        "author": "B站 月翼之一",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://www.bilibili.com/video/BV1rp4y147KH",
+        "bvid": "BV1rp4y147KH",
+        "sha256": "04fec42d28aaf1cab15d99a3569759a29e0676d0fe6c9f827cc0cb8dc2a1c25c",
+        "duration_seconds": 20.0
+      }
     }
   ],
   "banners": [

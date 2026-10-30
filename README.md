@@ -45,7 +45,9 @@ docker compose up --build
 
 ## 图片与视频
 
-景点图、缩略图和首页横幅在 `frontend/public/media/images/`，都是 WebP。数据库只保存路径：`scenic_spot.cover_url`、`scenic_spot.video_url`、`spot_image.url`。作者、协议和原始页面见 [docs/ATTRIBUTION.md](docs/ATTRIBUTION.md)。介绍视频使用 Wikimedia 的文件地址，不把视频文件放进仓库。
+景点图、缩略图和首页横幅在 `frontend/public/media/images/`，都是 WebP。14 个景点的介绍视频在 `frontend/public/media/videos/<slug>.mp4`，数据库里的 `video_url` 写成 `/media/videos/<slug>.mp4`，由前台静态目录直接提供。其余景点仍使用 Wikimedia 的文件地址。作者、协议和原始页面见 [docs/ATTRIBUTION.md](docs/ATTRIBUTION.md)。这些 MP4 来自 B 站公开视频的 20 秒节选，未取得公开传播授权，仅供课程展示。
+
+已经初始化过的数据库不会自动重跑 `sql/data.sql`。要给旧库补上这 14 条地址，执行 `sql/update_video_url.sql`。
 
 重新生成演示数据：
 
