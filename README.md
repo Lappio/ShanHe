@@ -1,0 +1,50 @@
+# 山河纪 · 全国热门景点文旅门户
+
+Web 编程实践课程设计：游客前台 + 管理后台。前端 Vue 3，后端 Spring Boot 3，数据库 MySQL 8。
+
+## 演示账号
+
+| 角色 | 用户名 | 密码 |
+| --- | --- | --- |
+| 管理员 | admin | admin123 |
+| 游客 | linwan | user123 |
+
+其余种子用户密码也是 `user123`。
+
+## 本地运行
+
+环境：JDK 17+、Maven 3.8+、Node.js 20+、MySQL 8。
+
+```bash
+mysql --default-character-set=utf8mb4 --init-command="SET time_zone='+08:00'" -u root -p < sql/schema.sql
+mysql --default-character-set=utf8mb4 --init-command="SET time_zone='+08:00'" -u root -p < sql/data.sql
+```
+
+`sql/schema.sql` 末尾会创建数据库用户 `shanhe` / `shanhe123`，主机为 `localhost`、`127.0.0.1` 和 `%`，并授予 `shanhe` 库的全部权限。这与 `backend/src/main/resources/application.yml` 一致。只需用 root 导入这两个文件，不必再单独建用户。Docker Compose 里的后端仍使用 root，不受影响。
+
+```bash
+cd backend && mvn spring-boot:run
+cd frontend && npm install && npm run dev
+```
+
+前台 <http://127.0.0.1:43123> ，接口 <http://127.0.0.1:8088> 。
+
+也可以：
+
+```bash
+docker compose up --build
+```
+
+浏览器打开 <http://127.0.0.1:43123> 。
+
+更完整的步骤和时区说明见 [docs/部署文档.md](docs/部署文档.md)。设计说明见 [docs/网站设计报告.md](docs/网站设计报告.md)，同目录的 [docs/网站设计报告.pdf](docs/网站设计报告.pdf) 是按 A4、页边距 2.54 cm、小四、1.5 倍行距导出的正文，页数以这份 PDF 为准。上交压缩包的目录名和排除项见 [docs/打包说明.md](docs/打包说明.md)。
+
+## 图片与视频
+
+景点图、缩略图和首页横幅在 `frontend/public/media/images/`，都是 WebP。数据库只保存路径：`scenic_spot.cover_url`、`scenic_spot.video_url`、`spot_image.url`。作者、协议和原始页面见 [docs/ATTRIBUTION.md](docs/ATTRIBUTION.md)。介绍视频使用 Wikimedia 的文件地址，不把视频文件放进仓库。
+
+重新生成演示数据：
+
+```bash
+python3 scripts/build_seed.py
+```

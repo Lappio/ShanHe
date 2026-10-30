@@ -1,0 +1,38 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: shanhe-portal
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/shanhe?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: shanhe
+    password: shanhe123
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 20000
+  jackson:
+    time-zone: Asia/Shanghai
+    serialization:
+      write-dates-as-timestamps: false
+  cache:
+    type: caffeine
+    caffeine:
+      spec: maximumSize=300,expireAfterWrite=120s
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+      table-underline: true
+
+shanhe:
+  jwt:
+    secret: shanhe-portal-jwt-secret-key-2026-course-demo-32b
+    expire-hours: 72
+
+logging:
+  level:
+    com.shanhe.portal: info

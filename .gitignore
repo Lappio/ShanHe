@@ -1,0 +1,11 @@
+target/
+node_modules/
+dist/
+.idea/
+*.iml
+.DS_Store
+uploads/
+*.log
+.vite/
+playwright-report/
+test-results/

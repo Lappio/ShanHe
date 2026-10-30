@@ -1,0 +1,1144 @@
+{
+  "spots": [
+    {
+      "name": "故宫",
+      "slug": "gugong",
+      "province": "北京市",
+      "city": "北京市",
+      "category": "历史古迹",
+      "intro": "故宫位于北京城中轴线的中心，旧称紫禁城，是明清两代的皇家宫殿，也是世界上现存规模最大、保存最为完整的木质结构古建筑群之一。宫城四面环有高墙与护城河，以太和殿、中和殿、保和殿为核心的外朝庄严宏伟，内廷宫院则精巧幽深。如今这里作为故宫博物院对公众开放，收藏有大量珍贵文物，并已列入世界文化遗产名录，是了解中国古代宫廷建筑与历史文化的首选之地。",
+      "images": [
+        {
+          "file": "images/gugong_1.webp",
+          "width": 1152,
+          "height": 768,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Golden_Water_River_at_the_Forbidden_City_03.jpg",
+          "original_title": "Golden Water River at the Forbidden City 03.jpg"
+        },
+        {
+          "file": "images/gugong_2.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "User:kallgan",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Sunset_of_the_Forbidden_City_2006.JPG",
+          "original_title": "Sunset of the Forbidden City 2006.JPG"
+        },
+        {
+          "file": "images/gugong_3.webp",
+          "width": 1152,
+          "height": 787,
+          "author": "Ermell",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Beijing_forbidden_city_Belvedere_of_Embodying_Benevolence-20071018-RM-142403.jpg",
+          "original_title": "Beijing forbidden city Belvedere of Embodying Benevolence-20071018-RM-142403.jpg"
+        }
+      ],
+      "thumb": "images/gugong_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Verbotene_Stadt.ogv",
+        "author": "Nicor",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Verbotene_Stadt.ogv"
+      }
+    },
+    {
+      "name": "八达岭长城",
+      "slug": "badaling",
+      "province": "北京市",
+      "city": "北京市",
+      "category": "历史古迹",
+      "intro": "八达岭长城位于北京市延庆区，是明长城中保存最好、最具代表性的段落之一，也是最早向游客开放的长城景区。城墙依山势蜿蜒于燕山山脉之间，敌楼、关城错落分布，地势险要，自古为拱卫京师的重要关隘。登上城墙远眺，群山起伏，春有山花、秋有红叶，四季景色各异。长城作为世界文化遗产，八达岭段接待过众多中外访客，被视为中华民族的重要象征。",
+      "images": [
+        {
+          "file": "images/badaling_1.webp",
+          "width": 1024,
+          "height": 656,
+          "author": "CEphoto, Uwe Aranas",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-01.jpg",
+          "original_title": "Badaling China Great-Wall-of-China-01.jpg"
+        },
+        {
+          "file": "images/badaling_2.webp",
+          "width": 1024,
+          "height": 683,
+          "author": "CEphoto, Uwe Aranas",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-02.jpg",
+          "original_title": "Badaling China Great-Wall-of-China-02.jpg"
+        },
+        {
+          "file": "images/badaling_3.webp",
+          "width": 1024,
+          "height": 768,
+          "author": "Reinhold Möller Ermell",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Peking_Grosse_Mauer-20071019-RM-114506.jpg",
+          "original_title": "Peking Grosse Mauer-20071019-RM-114506.jpg"
+        }
+      ],
+      "thumb": "images/badaling_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm",
+        "author": "Johnny Xmas",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm",
+        "note": "Commons 上无八达岭段的自由授权视频；此为金山岭长城航拍，可作长城通用介绍视频"
+      }
+    },
+    {
+      "name": "杭州西湖",
+      "slug": "xihu",
+      "province": "浙江省",
+      "city": "杭州市",
+      "category": "自然风光",
+      "intro": "杭州西湖位于浙江省杭州市西部，三面环山、一面临城，以秀丽的湖光山色和深厚的人文积淀闻名天下。苏堤、白堤横卧湖上，断桥、雷峰塔、三潭印月等景点散布四周，留下了白居易、苏轼等文人的诗篇与传说。“西湖十景”四季各有韵味，春看桃柳、夏赏荷花、秋闻桂香、冬观残雪。杭州西湖文化景观已列入世界遗产名录，被誉为“人间天堂”的代表。",
+      "images": [
+        {
+          "file": "images/xihu_1.webp",
+          "width": 1280,
+          "height": 848,
+          "author": "DXR",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:West_Lake_Pavilion_and_Water_Lilies,_Hangzhou_120529_1.jpg",
+          "original_title": "West Lake Pavilion and Water Lilies, Hangzhou 120529 1.jpg"
+        },
+        {
+          "file": "images/xihu_2.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "Takashishin",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:West_Lake,_Hangzhou_2025.jpg",
+          "original_title": "West Lake, Hangzhou 2025.jpg"
+        },
+        {
+          "file": "images/xihu_3.webp",
+          "width": 1024,
+          "height": 682,
+          "author": "Windmemories",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:20260424_West_Lake_and_Xiling_Bridge.jpg",
+          "original_title": "20260424 West Lake and Xiling Bridge.jpg"
+        }
+      ],
+      "thumb": "images/xihu_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Walking_China%2C_Hang_Zhou%2C_Exploring_the_beautiful_West_Lake_in_Hangzhou_by_Boat.webm",
+        "author": "Walking China",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Walking_China,_Hang_Zhou,_Exploring_the_beautiful_West_Lake_in_Hangzhou_by_Boat.webm"
+      }
+    },
+    {
+      "name": "黄山",
+      "slug": "huangshan",
+      "province": "安徽省",
+      "city": "黄山市",
+      "category": "自然风光",
+      "intro": "黄山位于安徽省南部黄山市，是中国最著名的山岳风景区之一，素以奇松、怪石、云海、温泉、冬雪“五绝”著称。花岗岩峰林拔地而起，莲花峰、光明顶、天都峰等主峰雄奇险峻，迎客松更是黄山的标志。云雾在峰谷间翻涌，日出与晚霞变幻莫测，自古吸引无数文人画家前来。黄山已被列入世界文化与自然双重遗产名录，并有“五岳归来不看山，黄山归来不看岳”的美誉。",
+      "images": [
+        {
+          "file": "images/huangshan_1.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Mount-huangshan_53319732882_o.jpg",
+          "original_title": "Mount-huangshan 53319732882 o.jpg"
+        },
+        {
+          "file": "images/huangshan_2.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Mount-huangshan_53320601421_o.jpg",
+          "original_title": "Mount-huangshan 53320601421 o.jpg"
+        },
+        {
+          "file": "images/huangshan_3.webp",
+          "width": 1280,
+          "height": 749,
+          "author": "Chi King",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Huangshan_pic_4.jpg",
+          "original_title": "Huangshan pic 4.jpg"
+        }
+      ],
+      "thumb": "images/huangshan_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Hu%C3%A1ngsh%C4%81n.ogv",
+        "author": "Thomas LOMBARD",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Hu%C3%A1ngsh%C4%81n.ogv"
+      }
+    },
+    {
+      "name": "张家界国家森林公园",
+      "slug": "zhangjiajie",
+      "province": "湖南省",
+      "city": "张家界市",
+      "category": "自然风光",
+      "intro": "张家界国家森林公园位于湖南省张家界市武陵源区，是中国第一个国家森林公园，也是武陵源风景名胜区的核心组成部分。这里以独特的石英砂岩峰林地貌闻名，成百上千座石柱拔地而起，峰壁陡峭、形态各异，山间林木葱郁、云雾缭绕。袁家界、金鞭溪、黄石寨等景区各具特色，峰林景观宛如仙境。武陵源作为世界自然遗产，以其奇特的地貌和良好的生态吸引着世界各地的游客。",
+      "images": [
+        {
+          "file": "images/zhangjiajie_1.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "Kuruman from Tokyo, Japan",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park.jpg",
+          "original_title": "Zhangjiajie National Forest Park.jpg"
+        },
+        {
+          "file": "images/zhangjiajie_2.webp",
+          "width": 1152,
+          "height": 697,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_38023-Zhangjiajie_(48757574461).jpg",
+          "original_title": "Zhangjiajie National Forest Park 38023-Zhangjiajie (48757574461).jpg"
+        },
+        {
+          "file": "images/zhangjiajie_3.webp",
+          "width": 1152,
+          "height": 777,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_38021-Zhangjiajie_(48757252178).jpg",
+          "original_title": "Zhangjiajie National Forest Park 38021-Zhangjiajie (48757252178).jpg"
+        }
+      ],
+      "thumb": "images/zhangjiajie_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm",
+        "author": "中国新闻网",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm",
+        "note": "中新网短讯，前半段为张家界武陵源雪后云海"
+      }
+    },
+    {
+      "name": "九寨沟",
+      "slug": "jiuzhaigou",
+      "province": "四川省",
+      "city": "阿坝藏族羌族自治州",
+      "category": "自然风光",
+      "intro": "九寨沟位于四川省阿坝藏族羌族自治州九寨沟县，因沟内分布有多个藏族村寨而得名。景区以翠海、叠瀑、彩林、雪峰和藏族风情为主要特色，湖泊由钙华沉积形成，湖水清澈透亮，在阳光下呈现蓝、绿、黄等斑斓色彩，被称为“海子”。五花海、长海、诺日朗瀑布等景点闻名遐迩，秋季彩林层叠时尤为绚丽。九寨沟是世界自然遗产，也是国家级自然保护区，有“童话世界”之称。",
+      "images": [
+        {
+          "file": "images/jiuzhaigou_1.webp",
+          "width": 960,
+          "height": 638,
+          "author": "Chensiyuan",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg",
+          "original_title": "1 jiuzhaigou valley wu hua hai 2011b.jpg"
+        },
+        {
+          "file": "images/jiuzhaigou_2.webp",
+          "width": 1152,
+          "height": 768,
+          "author": "Jean-Marie Hullot from France",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rhinoceros_Lake,_Jiuzhaigou_Valley.jpg",
+          "original_title": "Rhinoceros Lake, Jiuzhaigou Valley.jpg"
+        },
+        {
+          "file": "images/jiuzhaigou_3.webp",
+          "width": 1152,
+          "height": 864,
+          "author": "Culantor Lin",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E5%AF%A8%E6%BA%9D-%E8%80%81%E8%99%8E%E6%B5%B7_Jiuzhaigou_Tiger_Lake.jpg",
+          "original_title": "九寨溝-老虎海 Jiuzhaigou Tiger Lake.jpg"
+        }
+      ],
+      "thumb": "images/jiuzhaigou_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "秦始皇兵马俑",
+      "slug": "bingmayong",
+      "province": "陕西省",
+      "city": "西安市",
+      "category": "历史古迹",
+      "intro": "秦始皇兵马俑位于陕西省西安市临潼区，是秦始皇陵的大型陪葬坑，于上世纪七十年代由当地农民打井时偶然发现。坑内出土了大量按照真人比例塑造的陶俑和陶马，排列成严整的军阵，人物神态、发式、衣着各不相同，展现了秦代高超的雕塑与制陶工艺。如今已建成秦始皇帝陵博物院对外开放，秦始皇陵及兵马俑坑被列入世界文化遗产，被誉为“世界第八大奇迹”。",
+      "images": [
+        {
+          "file": "images/bingmayong_1.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "Jmhullot",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Terracotta_Army,_View_of_Pit_1.jpg",
+          "original_title": "Terracotta Army, View of Pit 1.jpg"
+        },
+        {
+          "file": "images/bingmayong_2.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "Gary Todd",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Qin_Shihuang_Terracotta_Army,_Pit_1.jpg",
+          "original_title": "Qin Shihuang Terracotta Army, Pit 1.jpg"
+        },
+        {
+          "file": "images/bingmayong_3.webp",
+          "width": 1152,
+          "height": 864,
+          "author": "Ideophagous",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Terracotta_army_(32472).jpg",
+          "original_title": "Terracotta army (32472).jpg"
+        }
+      ],
+      "thumb": "images/bingmayong_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Terracotta_Army_Pit_1_2014.webmhd.webm",
+        "author": "Bairuilong",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Terracotta_Army_Pit_1_2014.webmhd.webm"
+      }
+    },
+    {
+      "name": "桂林漓江",
+      "slug": "lijiang_guilin",
+      "province": "广西壮族自治区",
+      "city": "桂林市",
+      "category": "自然风光",
+      "intro": "桂林漓江位于广西壮族自治区桂林市，是典型的喀斯特岩溶地貌河流。从桂林至阳朔的漓江水路，两岸奇峰林立、倒影如画，江水清澈蜿蜒，竹筏、渔舟与田园村落点缀其间，构成一幅天然的山水长卷。九马画山、黄布倒影、兴坪佳境等景点久负盛名，人民币背面图案亦取景于此。桂林山水自古享有“桂林山水甲天下”的美誉，漓江游船和竹筏是体验这片山水的经典方式。",
+      "images": [
+        {
+          "file": "images/lijiang_guilin_1.webp",
+          "width": 1280,
+          "height": 849,
+          "author": "chensiyuan",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:1_li_jiang_guilin_yangshuo_2011.jpg",
+          "original_title": "1 li jiang guilin yangshuo 2011.jpg"
+        },
+        {
+          "file": "images/lijiang_guilin_2.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "Flora-Victoria",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Li_River_cruise_from_Guilin_to_Yangshuo.JPG",
+          "original_title": "Li River cruise from Guilin to Yangshuo.JPG"
+        },
+        {
+          "file": "images/lijiang_guilin_3.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "swithland",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Li_River_Guilin_China_-_panoramio_(5).jpg",
+          "original_title": "Li River Guilin China - panoramio (5).jpg"
+        }
+      ],
+      "thumb": "images/lijiang_guilin_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "布达拉宫",
+      "slug": "budalagong",
+      "province": "西藏自治区",
+      "city": "拉萨市",
+      "category": "宗教文化",
+      "intro": "布达拉宫位于西藏自治区拉萨市中心的红山之上，是一座集宫殿、城堡和寺院于一体的宏伟建筑群，始建于吐蕃王朝松赞干布时期，后经多次扩建形成今日规模。宫殿依山而建，主体分为白宫和红宫，殿堂内保存着大量壁画、佛像、经书和灵塔等珍贵文物，是藏式建筑艺术的杰出代表。布达拉宫已列入世界文化遗产名录，是藏传佛教文化的重要象征，也是游客来到拉萨的必访之地。",
+      "images": [
+        {
+          "file": "images/budalagong_1.webp",
+          "width": 1152,
+          "height": 771,
+          "author": "Antoine Taveneaux",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Potala_Palace,_August_2009.jpg",
+          "original_title": "Potala Palace, August 2009.jpg"
+        },
+        {
+          "file": "images/budalagong_2.webp",
+          "width": 1152,
+          "height": 685,
+          "author": "Antoine Taveneaux",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Potala_palace24.jpg",
+          "original_title": "Potala palace24.jpg"
+        },
+        {
+          "file": "images/budalagong_3.webp",
+          "width": 1280,
+          "height": 963,
+          "author": "Laika ac from UK",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Potala_Palace_(23651397662).jpg",
+          "original_title": "Potala Palace (23651397662).jpg"
+        }
+      ],
+      "thumb": "images/budalagong_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%E2%80%9C%E5%86%AC%E6%B8%B8%E8%A5%BF%E8%97%8F%E2%80%9D%E8%BF%9B%E8%A1%8C%E6%97%B6_%E6%B8%B8%E5%AE%A2%E5%85%8D%E8%B4%B9%E6%B8%B8%E8%A7%88%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB.webm",
+        "author": "中国新闻社",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%E2%80%9C%E5%86%AC%E6%B8%B8%E8%A5%BF%E8%97%8F%E2%80%9D%E8%BF%9B%E8%A1%8C%E6%97%B6_%E6%B8%B8%E5%AE%A2%E5%85%8D%E8%B4%B9%E6%B8%B8%E8%A7%88%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB.webm"
+      }
+    },
+    {
+      "name": "厦门鼓浪屿",
+      "slug": "gulangyu",
+      "province": "福建省",
+      "city": "厦门市",
+      "category": "海滨海岛",
+      "intro": "鼓浪屿位于福建省厦门市思明区，是与厦门岛隔海相望的一座小岛，因岛西南海边礁石受浪潮冲击声如擂鼓而得名。岛上禁止机动车通行，街巷幽静，保存有大量中西合璧的近代建筑，如别墅、教堂和领事馆旧址，日光岩、菽庄花园、皓月园等是热门景点。鼓浪屿钢琴拥有密度高，被称为“钢琴之岛”和“音乐之乡”。“鼓浪屿：历史国际社区”已被列入世界文化遗产名录。",
+      "images": [
+        {
+          "file": "images/gulangyu_1.webp",
+          "width": 1024,
+          "height": 765,
+          "author": "gdczjkk",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:%E9%BC%93%E6%B5%AA%E5%B1%BF_-_panoramio.jpg",
+          "original_title": "鼓浪屿 - panoramio.jpg"
+        },
+        {
+          "file": "images/gulangyu_2.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "JULIANISME",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:High_tide_on_Gulangyu_beach_20230827_03.jpg",
+          "original_title": "High tide on Gulangyu beach 20230827 03.jpg"
+        },
+        {
+          "file": "images/gulangyu_3.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "Rolfmueller",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Gulangyu_mansion_2011_12.jpg",
+          "original_title": "Gulangyu mansion 2011 12.jpg"
+        }
+      ],
+      "thumb": "images/gulangyu_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "泰山",
+      "slug": "taishan",
+      "province": "山东省",
+      "city": "泰安市",
+      "category": "自然风光",
+      "intro": "泰山位于山东省中部，主体横跨泰安、济南等地，古称岱山、岱宗，居五岳之首，有“五岳独尊”之称。历代帝王多在此举行封禅大典，山中留下了大量古建筑、石刻和碑碣，岱庙、红门、中天门、南天门、玉皇顶等沿登山步道依次分布。登临绝顶可观旭日东升、云海玉盘等奇景，“会当凌绝顶，一览众山小”的诗句正源于此。泰山是中国首个世界文化与自然双重遗产。",
+      "images": [
+        {
+          "file": "images/taishan_1.webp",
+          "width": 896,
+          "height": 675,
+          "author": "Jari Kirma",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:A_view_from_Mount_Tai.jpg",
+          "original_title": "A view from Mount Tai.jpg"
+        },
+        {
+          "file": "images/taishan_2.webp",
+          "width": 1280,
+          "height": 733,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:50577-_Half_Way_Gate_to_Heaven,_Mount_Tai_%E6%B3%B0%E5%B1%B1%E4%B8%AD%E5%A4%A9%E9%97%A8%E7%B4%A2%E9%81%93%E7%AB%99.jpg",
+          "original_title": "50577- Half Way Gate to Heaven, Mount Tai 泰山中天门索道站.jpg"
+        },
+        {
+          "file": "images/taishan_3.webp",
+          "width": 1152,
+          "height": 685,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:50549-Mount_Tai-Taishan_%E6%B3%B0%E5%B1%B1.jpg",
+          "original_title": "50549-Mount Tai-Taishan 泰山.jpg"
+        }
+      ],
+      "thumb": "images/taishan_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "丽江古城",
+      "slug": "lijiang_gucheng",
+      "province": "云南省",
+      "city": "丽江市",
+      "category": "历史古迹",
+      "intro": "丽江古城位于云南省丽江市古城区，又名大研古镇，是以纳西族为主体的历史文化名城。古城依山傍水而建，没有城墙，玉龙雪山融水经水渠穿街绕巷，形成“家家流水、户户垂杨”的独特格局。四方街是古城的中心，石板路、木结构民居和小桥流水错落有致，纳西古乐与东巴文化在此传承。丽江古城被列入世界文化遗产名录，是体验滇西北民族风情和高原古镇生活的热门目的地。",
+      "images": [
+        {
+          "file": "images/lijiang_gucheng_1.webp",
+          "width": 1024,
+          "height": 478,
+          "author": "CEphoto, Uwe Aranas",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Lijiang_Yunnan_Old-town-03.jpg",
+          "original_title": "Lijiang Yunnan Old-town-03.jpg"
+        },
+        {
+          "file": "images/lijiang_gucheng_2.webp",
+          "width": 1024,
+          "height": 683,
+          "author": "chensiyuan",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:1_lijiang_old_town_2012a.jpg",
+          "original_title": "1 lijiang old town 2012a.jpg"
+        },
+        {
+          "file": "images/lijiang_gucheng_3.webp",
+          "width": 1152,
+          "height": 768,
+          "author": "CEphoto, Uwe Aranas",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Lijiang_Yunnan_Old-town-02.jpg",
+          "original_title": "Lijiang Yunnan Old-town-02.jpg"
+        }
+      ],
+      "thumb": "images/lijiang_gucheng_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lijiang%2C_Yunnan_The_Most_Beautiful_Fairytale_Town_in_China_%284K_UHD%29.webm",
+        "author": "DuckTravel (World Tourist Channel)",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Lijiang,_Yunnan_The_Most_Beautiful_Fairytale_Town_in_China_(4K_UHD).webm"
+      }
+    },
+    {
+      "name": "苏州拙政园",
+      "slug": "zhuozhengyuan",
+      "province": "江苏省",
+      "city": "苏州市",
+      "category": "园林建筑",
+      "intro": "拙政园位于江苏省苏州市姑苏区，始建于明代正德年间，是江南古典园林的代表作，与北京颐和园、承德避暑山庄、苏州留园并称中国四大名园。全园以水为中心，分为东、中、西三部分，亭台楼榭临水而建，花木扶疏，借景、对景等造园手法运用精妙，远香堂、小飞虹、见山楼等景点各具意境。拙政园作为苏州古典园林的组成部分，已被列入世界文化遗产名录。",
+      "images": [
+        {
+          "file": "images/zhuozhengyuan_1.webp",
+          "width": 1024,
+          "height": 853,
+          "author": "King of Hearts",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Humble_Administrator%27s_Garden_Suzhou_November_2017_007.jpg",
+          "original_title": "Humble Administrator's Garden Suzhou November 2017 007.jpg"
+        },
+        {
+          "file": "images/zhuozhengyuan_2.webp",
+          "width": 896,
+          "height": 598,
+          "author": "King of Hearts",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Humble_Administrator%27s_Garden_Suzhou_November_2017_005.jpg",
+          "original_title": "Humble Administrator's Garden Suzhou November 2017 005.jpg"
+        },
+        {
+          "file": "images/zhuozhengyuan_3.webp",
+          "width": 896,
+          "height": 717,
+          "author": "King of Hearts",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Humble_Administrator%27s_Garden_Suzhou_November_2017_006.jpg",
+          "original_title": "Humble Administrator's Garden Suzhou November 2017 006.jpg"
+        }
+      ],
+      "thumb": "images/zhuozhengyuan_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "上海外滩",
+      "slug": "waitan",
+      "province": "上海市",
+      "city": "上海市",
+      "category": "城市地标",
+      "intro": "上海外滩位于上海市黄浦区黄浦江西岸，是上海最具代表性的城市地标。沿江矗立着一批风格各异的近代建筑，涵盖哥特式、巴洛克式、新古典主义、装饰艺术等多种样式，被称为“万国建筑博览群”，见证了上海开埠以来的历史变迁。漫步外滩观景平台，可隔江眺望陆家嘴的东方明珠、上海中心大厦等摩天楼群。白天可赏建筑与江景，入夜灯光璀璨，是游客感受上海都市魅力的首选。",
+      "images": [
+        {
+          "file": "images/waitan_1.webp",
+          "width": 1280,
+          "height": 855,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:20264-Shanghai,_The_Bund.jpg",
+          "original_title": "20264-Shanghai, The Bund.jpg"
+        },
+        {
+          "file": "images/waitan_2.webp",
+          "width": 1152,
+          "height": 784,
+          "author": "Ermell",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Shanghai_Bund-20150516-RM-173803.jpg",
+          "original_title": "Shanghai Bund-20150516-RM-173803.jpg"
+        },
+        {
+          "file": "images/waitan_3.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "Ermell",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Shanghai_skyline_waterfront_pudong_A235423.jpg",
+          "original_title": "Shanghai skyline waterfront pudong A235423.jpg"
+        }
+      ],
+      "thumb": "images/waitan_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Shanghai_Bund%2C_Lujiazui_Skyline_Timelapse.webm",
+        "author": "Yigang Yu",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Shanghai_Bund,_Lujiazui_Skyline_Timelapse.webm"
+      }
+    },
+    {
+      "name": "曲阜三孔",
+      "slug": "qufu_sankong",
+      "province": "山东省",
+      "city": "济宁市",
+      "category": "历史古迹",
+      "intro": "曲阜三孔位于山东省济宁市曲阜市，指孔庙、孔府和孔林，是纪念和传承孔子及其后裔的重要遗存。孔庙是历代祭祀孔子的场所，大成殿与北京故宫太和殿、泰山岱庙天贶殿并称为中国古代三大殿；孔府是孔子嫡系后裔居住和办公的府邸；孔林则是孔子及其家族的墓地，古木参天。三孔集中体现了儒家文化的深厚底蕴，已被列入世界文化遗产名录，是了解中国传统文化的重要场所。",
+      "images": [
+        {
+          "file": "images/qufu_sankong_1.webp",
+          "width": 1152,
+          "height": 768,
+          "author": "Gary Todd from Xinzheng, China",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Kongzi_(Confucius)_Temple,_Qufu_(13035569695).jpg",
+          "original_title": "Kongzi (Confucius) Temple, Qufu (13035569695).jpg"
+        },
+        {
+          "file": "images/qufu_sankong_2.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "Gary Todd from Xinzheng, China",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Kongzi_(Confucius)_Temple,_Qufu_(13035962625).jpg",
+          "original_title": "Kongzi (Confucius) Temple, Qufu (13035962625).jpg"
+        },
+        {
+          "file": "images/qufu_sankong_3.webp",
+          "width": 960,
+          "height": 720,
+          "author": "Scott Edmunds",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Qufu_gateway_(53991070987).jpg",
+          "original_title": "Qufu gateway (53991070987).jpg"
+        }
+      ],
+      "thumb": "images/qufu_sankong_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "峨眉山",
+      "slug": "emeishan",
+      "province": "四川省",
+      "city": "乐山市",
+      "category": "宗教文化",
+      "intro": "峨眉山位于四川省乐山市峨眉山市，是中国四大佛教名山之一，相传为普贤菩萨的道场。山势雄伟，植被茂密，从山脚到金顶气候与植被垂直变化明显，有“峨眉天下秀”之誉。报国寺、万年寺、清音阁、洗象池等寺庙古迹沿山分布，山中常见野生猕猴。登上金顶可观日出、云海、佛光和圣灯等奇观。峨眉山与乐山大佛共同被列入世界文化与自然双重遗产名录。",
+      "images": [
+        {
+          "file": "images/emeishan_1.webp",
+          "width": 1280,
+          "height": 854,
+          "author": "George N",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA_Mount_Emei_Scenic_Area_07.jpg",
+          "original_title": "峨眉山风景区 Mount Emei Scenic Area 07.jpg"
+        },
+        {
+          "file": "images/emeishan_2.webp",
+          "width": 1152,
+          "height": 864,
+          "author": "Zhou Yuji1028",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jinding.jpg",
+          "original_title": "Jinding.jpg"
+        },
+        {
+          "file": "images/emeishan_3.webp",
+          "width": 1280,
+          "height": 854,
+          "author": "George N",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA_Mount_Emei_Scenic_Area_20.jpg",
+          "original_title": "峨眉山风景区 Mount Emei Scenic Area 20.jpg"
+        }
+      ],
+      "thumb": "images/emeishan_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "乐山大佛",
+      "slug": "leshan_dafo",
+      "province": "四川省",
+      "city": "乐山市",
+      "category": "宗教文化",
+      "intro": "乐山大佛位于四川省乐山市，地处岷江、青衣江和大渡河三江汇流处，依凌云山栖霞峰临江峭壁凿造而成，是一尊弥勒佛坐像。大佛开凿于唐代，历时约九十年方告完成，是世界上现存最大的古代石刻佛像之一。佛像头与山齐、足踏大江，体内外设有精巧的排水系统，千余年来保存较好。游客可沿九曲栈道近观，也可乘船在江上眺望全貌。乐山大佛与峨眉山同属世界双重遗产。",
+      "images": [
+        {
+          "file": "images/leshan_dafo_1.webp",
+          "width": 1024,
+          "height": 683,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Leshan_Giant_Buddha_(1).jpg",
+          "original_title": "Leshan Giant Buddha (1).jpg"
+        },
+        {
+          "file": "images/leshan_dafo_2.webp",
+          "width": 960,
+          "height": 540,
+          "author": "王计",
+          "license": "CC BY 2.5",
+          "license_url": "https://creativecommons.org/licenses/by/2.5",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Leshan_Giant_Buddha,_20161102.jpg",
+          "original_title": "Leshan Giant Buddha, 20161102.jpg"
+        },
+        {
+          "file": "images/leshan_dafo_3.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "Jan Kranendonk (https://www.jankranendonk.nl)",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Leshan_giant_Buddha.jpg",
+          "original_title": "Leshan giant Buddha.jpg"
+        }
+      ],
+      "thumb": "images/leshan_dafo_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "重庆洪崖洞",
+      "slug": "hongyadong",
+      "province": "重庆市",
+      "city": "重庆市",
+      "category": "城市地标",
+      "intro": "洪崖洞位于重庆市渝中区，地处嘉陵江畔的悬崖峭壁之上，是以巴渝传统吊脚楼风貌为特色的商业文化街区。建筑依山就势、层层叠叠，沿崖壁分布多层街巷，融合了餐饮、民俗、观景等多种功能，充分展现了重庆“山城”立体建筑的独特魅力。从江边或对岸望去，吊脚楼群与现代高楼相映成趣，夜晚灯火通明时更显梦幻。这里还可眺望嘉陵江与千厮门大桥，是重庆最热门的打卡地之一。",
+      "images": [
+        {
+          "file": "images/hongyadong_1.webp",
+          "width": 1024,
+          "height": 768,
+          "author": "HoweyYuan",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hongya_Cave_20240722.jpg",
+          "original_title": "Hongya Cave 20240722.jpg"
+        },
+        {
+          "file": "images/hongyadong_2.webp",
+          "width": 1152,
+          "height": 864,
+          "author": "Qa003qa003",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hongya_Cave_20180429_190412.jpg",
+          "original_title": "Hongya Cave 20180429 190412.jpg"
+        },
+        {
+          "file": "images/hongyadong_3.webp",
+          "width": 1024,
+          "height": 683,
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hongya_Cave_20180520(2).jpg",
+          "original_title": "Hongya Cave 20180520(2).jpg"
+        }
+      ],
+      "thumb": "images/hongyadong_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "敦煌莫高窟",
+      "slug": "mogaoku",
+      "province": "甘肃省",
+      "city": "酒泉市敦煌市",
+      "category": "宗教文化",
+      "intro": "敦煌莫高窟位于甘肃省酒泉市敦煌市东南的鸣沙山东麓崖壁上，俗称千佛洞，始凿于十六国时期，历经北朝、隋、唐、五代、西夏、元等朝代的持续营建。洞窟中保存有大量精美的壁画和彩塑，内容涵盖佛教故事、经变画、供养人像及社会生活场景，是世界上现存规模最大、内容最丰富的佛教艺术地之一。藏经洞出土的文献更催生了“敦煌学”。莫高窟已列入世界文化遗产名录。",
+      "images": [
+        {
+          "file": "images/mogaoku_1.webp",
+          "width": 1152,
+          "height": 864,
+          "author": "慕尼黑啤酒",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jiucenglou_of_Mogao_Caves.jpg",
+          "original_title": "Jiucenglou of Mogao Caves.jpg"
+        },
+        {
+          "file": "images/mogaoku_2.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "Laika ac from UK",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_(23603212609).jpg",
+          "original_title": "Mogao Caves (23603212609).jpg"
+        },
+        {
+          "file": "images/mogaoku_3.webp",
+          "width": 1024,
+          "height": 683,
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Caves_16-17_of_Mogao_Grottoes_(20230918142815).jpg",
+          "original_title": "Caves 16-17 of Mogao Grottoes (20230918142815).jpg"
+        }
+      ],
+      "thumb": "images/mogaoku_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Mogao_Caves_2014.webmhd.webm",
+        "author": "Bairuilong",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_2014.webmhd.webm"
+      }
+    },
+    {
+      "name": "三亚亚龙湾",
+      "slug": "yalongwan",
+      "province": "海南省",
+      "city": "三亚市",
+      "category": "海滨海岛",
+      "intro": "亚龙湾位于海南省三亚市东南部，是一处呈新月形的热带海湾，三面青山环抱、一面向海。这里沙滩平缓宽阔，沙粒洁白细软，海水清澈湛蓝，能见度高，适宜游泳、潜水、帆船等多种海上活动，海底拥有丰富的珊瑚礁与热带鱼类。湾区内分布有众多度假酒店，周边还有亚龙湾热带天堂森林公园等景点。凭借优美的海景和舒适的气候，亚龙湾被誉为“天下第一湾”，是热门的滨海度假胜地。",
+      "images": [
+        {
+          "file": "images/yalongwan_1.webp",
+          "width": 1280,
+          "height": 857,
+          "author": "Shizhao",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Yalong_Bay_2007.JPG",
+          "original_title": "Yalong Bay 2007.JPG"
+        },
+        {
+          "file": "images/yalongwan_2.webp",
+          "width": 1152,
+          "height": 781,
+          "author": "Tanya Dedyukhina",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Yalong_bay_-_panoramio_(19).jpg",
+          "original_title": "Yalong bay - panoramio (19).jpg"
+        },
+        {
+          "file": "images/yalongwan_3.webp",
+          "width": 1280,
+          "height": 788,
+          "author": "Tanya Dedyukhina",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Yalong_bay_Aegean_Conifer_Suites_Resort_-_panoramio_(1).jpg",
+          "original_title": "Yalong bay Aegean Conifer Suites Resort - panoramio (1).jpg"
+        }
+      ],
+      "thumb": "images/yalongwan_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "哈尔滨中央大街",
+      "slug": "zhongyangdajie",
+      "province": "黑龙江省",
+      "city": "哈尔滨市",
+      "category": "城市地标",
+      "intro": "哈尔滨中央大街位于黑龙江省哈尔滨市道里区，北起松花江畔的防洪纪念塔，南接经纬街，是一条历史悠久的步行商业街。街道铺设着方块石路面，两侧汇集了文艺复兴、巴洛克、新艺术运动等多种风格的欧式建筑，充满异域风情，被称为“建筑艺术博物馆”。街上商铺、餐厅与老字号林立，马迭尔冰棍等特色美食深受游客喜爱。冬季这里还会举办冰雪活动，是体验哈尔滨城市风情的首选地。",
+      "images": [
+        {
+          "file": "images/zhongyangdajie_1.webp",
+          "width": 1024,
+          "height": 683,
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Central_Street_at_West_13th_St_(20230721112501).jpg",
+          "original_title": "Central Street at West 13th St (20230721112501).jpg"
+        },
+        {
+          "file": "images/zhongyangdajie_2.webp",
+          "width": 1152,
+          "height": 768,
+          "author": "Jonashtand",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:201907_Harbin_Central_Street_04.jpg",
+          "original_title": "201907 Harbin Central Street 04.jpg"
+        },
+        {
+          "file": "images/zhongyangdajie_3.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "Jonashtand",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:201907_Harbin_Central_Street_09.jpg",
+          "original_title": "201907 Harbin Central Street 09.jpg"
+        }
+      ],
+      "thumb": "images/zhongyangdajie_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Zhongyang_Dajie%2C_Harbin.webm",
+        "author": "Techyan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Zhongyang_Dajie,_Harbin.webm"
+      }
+    },
+    {
+      "name": "张掖丹霞",
+      "slug": "zhangye_danxia",
+      "province": "甘肃省",
+      "city": "张掖市",
+      "category": "自然风光",
+      "intro": "张掖丹霞位于甘肃省张掖市临泽县和肃南裕固族自治县境内，是张掖丹霞国家地质公园的核心景区。这里的七彩丹霞地貌由红色砂岩、砾岩等在长期沉积和风化侵蚀作用下形成，山体层理分明，红、黄、橙、绿、白等色彩交错，在阳光照射下绚丽夺目，宛如打翻的调色盘。日出和日落时分光影变幻尤为壮观。景区建有多处观景台和栈道，是摄影爱好者和游客竞相前往的地质奇观。",
+      "images": [
+        {
+          "file": "images/zhangye_danxia_1.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "YubYub41",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Zhangye_Danxia.JPG",
+          "original_title": "Zhangye Danxia.JPG"
+        },
+        {
+          "file": "images/zhangye_danxia_2.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "Terry Wu",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Colourful_mountains_of_the_Zhangye_National_Geopark.jpg",
+          "original_title": "Colourful mountains of the Zhangye National Geopark.jpg"
+        },
+        {
+          "file": "images/zhangye_danxia_3.webp",
+          "width": 1280,
+          "height": 959,
+          "author": "GCScott",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Zhangye_Danxia_Natural_Reserve.jpg",
+          "original_title": "Zhangye Danxia Natural Reserve.jpg"
+        }
+      ],
+      "thumb": "images/zhangye_danxia_thumb.webp",
+      "video": null
+    },
+    {
+      "name": "黄果树瀑布",
+      "slug": "huangguoshu",
+      "province": "贵州省",
+      "city": "安顺市",
+      "category": "自然风光",
+      "intro": "黄果树瀑布位于贵州省安顺市镇宁布依族苗族自治县，地处白水河上，是中国最著名的大型瀑布之一，也是世界知名的喀斯特瀑布群代表。瀑布从断崖顶端倾泻而下，水势浩大、声如雷鸣，水雾弥漫，晴天时常可见彩虹。瀑布后方有一条天然形成的水帘洞，游客可穿行其中从内部观赏飞瀑。景区周边还有陡坡塘瀑布、天星桥等景点，与黄果树大瀑布共同构成壮丽的瀑布群景观。",
+      "images": [
+        {
+          "file": "images/huangguoshu_1.webp",
+          "width": 1280,
+          "height": 853,
+          "author": "Robinliu",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Huangguoshu_Waterfall_-_Pixabay.jpg",
+          "original_title": "Huangguoshu Waterfall - Pixabay.jpg"
+        },
+        {
+          "file": "images/huangguoshu_2.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "Huangdan2060",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Huangguoshu_Waterfall_in_October_2020,_Picture105.jpg",
+          "original_title": "Huangguoshu Waterfall in October 2020, Picture105.jpg"
+        },
+        {
+          "file": "images/huangguoshu_3.webp",
+          "width": 1280,
+          "height": 799,
+          "author": "Whoisgalt",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Huangguoshu_Waterfall_Guizhou_Province.jpg",
+          "original_title": "Huangguoshu Waterfall Guizhou Province.jpg"
+        }
+      ],
+      "thumb": "images/huangguoshu_thumb.webp",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm",
+        "author": "中国新闻网",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm",
+        "note": "片头为张家界，后半段为黄果树瀑布（共用）"
+      }
+    },
+    {
+      "name": "平遥古城",
+      "slug": "pingyao",
+      "province": "山西省",
+      "city": "晋中市",
+      "category": "历史古迹",
+      "intro": "平遥古城位于山西省晋中市平遥县，是中国目前保存最为完整的古代县城之一，基本保留了明清时期的城市格局与风貌。古城墙环绕全城，城内街巷纵横、店铺林立，市楼、县衙、文庙等古建筑分布其间，大量传统民居院落保存完好。这里是“日昇昌”票号的所在地，被视为中国近代金融业的发源地之一。平遥古城已被列入世界文化遗产名录，每年举办的平遥国际摄影大展也颇具影响。",
+      "images": [
+        {
+          "file": "images/pingyao_1.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "Nicor",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Pingyao_40.JPG",
+          "original_title": "Pingyao 40.JPG"
+        },
+        {
+          "file": "images/pingyao_2.webp",
+          "width": 1280,
+          "height": 960,
+          "author": "lienyuan lee",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Pingyao_Ancient_City_North_Gate_%E5%B9%B3%E9%81%99%E5%8F%A4%E5%9F%8E%E5%8C%97%E9%96%80_-_panoramio.jpg",
+          "original_title": "Pingyao Ancient City North Gate 平遙古城北門 - panoramio.jpg"
+        },
+        {
+          "file": "images/pingyao_3.webp",
+          "width": 1280,
+          "height": 851,
+          "author": "林高志",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9C%8B%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%99%E5%8F%A4%E8%B9%9F631.jpg",
+          "original_title": "中國山西平遙古蹟631.jpg"
+        }
+      ],
+      "thumb": "images/pingyao_thumb.webp",
+      "video": null
+    }
+  ],
+  "banners": [
+    {
+      "file": "images/banner_1.webp",
+      "width": 1920,
+      "height": 840,
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-07.jpg",
+      "original_title": "Badaling China Great-Wall-of-China-07.jpg",
+      "spot_slug": "badaling"
+    },
+    {
+      "file": "images/banner_2.webp",
+      "width": 1728,
+      "height": 756,
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_37828-Zhangjiajie_(48757572061).jpg",
+      "original_title": "Zhangjiajie National Forest Park 37828-Zhangjiajie (48757572061).jpg",
+      "spot_slug": "zhangjiajie"
+    },
+    {
+      "file": "images/banner_3.webp",
+      "width": 1536,
+      "height": 672,
+      "author": "MSK",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lake_in_Jiuzhaigou.jpg",
+      "original_title": "Lake in Jiuzhaigou.jpg",
+      "spot_slug": "jiuzhaigou"
+    },
+    {
+      "file": "images/banner_4.webp",
+      "width": 1920,
+      "height": 840,
+      "author": "Terry Wu",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Colourful_mountains_of_the_Zhangye_National_Geopark.jpg",
+      "original_title": "Colourful mountains of the Zhangye National Geopark.jpg",
+      "spot_slug": "zhangye_danxia"
+    },
+    {
+      "file": "images/banner_5.webp",
+      "width": 1920,
+      "height": 840,
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_panorama.jpg",
+      "original_title": "Pudong Shanghai November 2017 panorama.jpg",
+      "spot_slug": "waitan"
+    }
+  ]
+}
