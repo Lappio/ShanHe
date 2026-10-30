@@ -16,8 +16,8 @@
           <el-button type="primary" style="width:100%" :loading="loading" @click="submit">登录</el-button>
         </el-form>
         <p>没有账号？<router-link to="/register">去注册</router-link></p>
-        <div class="demo-box">
-          <div>演示账号</div>
+        <div class="account-hint">
+          <div>默认账号</div>
           <div>管理员 admin / admin123</div>
           <div>游客 linwan / user123</div>
         </div>
