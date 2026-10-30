@@ -9,7 +9,7 @@
 - CC BY-SA 作品的修改版须以相同协议（BY-SA）发布。
 - CC0 / 公有领域作品无强制署名要求，此处仍列出以示尊重。
 - 仍使用 Wikimedia 的介绍视频只记录 Commons 文件地址，未下载；使用时同样需按其协议署名。
-- 第四节的 14 个本地 MP4 来自 B 站公开视频，不是 CC 授权，也未取得商用或公开传播许可，仅用于课程展示、学习与答辩演示。
+- 第四节的 9 条介绍视频是 Archive.org 上的外链，不是 CC 授权。版权归原作者所有，仅用于课程展示、学习与答辩演示。国内部分网络访问 Archive.org 可能较慢或打不开。
 - 简介文字（intro）为本素材包自行撰写，可自由用于本课程网站。
 
 ## 一、景点图片
@@ -103,12 +103,12 @@
 
 ## 三、介绍视频
 
-仍指向 Wikimedia Commons 的条目只保存文件地址，没有把视频文件放进仓库。原先没有合适自由授权视频的 12 个景点，以及八达岭、黄果树这两处借用素材，现用第四节的本地片段。
+仍指向 Wikimedia Commons 的条目只保存文件地址，没有把视频文件放进仓库。九寨沟等 9 个景点改用第四节的 Archive.org 直链。峨眉山、曲阜三孔、平遥古城目前没有介绍视频，详情页只提示浏览图集。八达岭、黄果树仍用原来的 Commons 外链。
 
 | 景点 | 视频 | 作者 | 授权协议 | 说明 |
 |---|---|---|---|---|
 | 故宫 | [Verbotene_Stadt.ogv](https://commons.wikimedia.org/wiki/File:Verbotene_Stadt.ogv) | Nicor | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |  |
-| 八达岭长城 | [Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm](https://commons.wikimedia.org/wiki/File:Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm) | Johnny Xmas | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | Commons 上无八达岭段的自由授权视频；此为金山岭长城航拍，可作长城通用介绍视频。已由第四节 B 站片段替换（仅课程展示） |
+| 八达岭长城 | [Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm](https://commons.wikimedia.org/wiki/File:Flying_the_Drone_around_the_Great_Wall_of_China_near_Jinshan_Ridge.webm) | Johnny Xmas | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | Commons 上无八达岭段的自由授权视频；此为金山岭长城航拍，可作长城通用介绍视频 |
 | 杭州西湖 | [Walking_China,_Hang_Zhou,_Exploring_the_beautiful_West_Lake_in_Hangzhou_by_Boat.webm](https://commons.wikimedia.org/wiki/File:Walking_China,_Hang_Zhou,_Exploring_the_beautiful_West_Lake_in_Hangzhou_by_Boat.webm) | Walking China | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) |  |
 | 黄山 | [Hu%C3%A1ngsh%C4%81n.ogv](https://commons.wikimedia.org/wiki/File:Hu%C3%A1ngsh%C4%81n.ogv) | Thomas LOMBARD | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |  |
 | 张家界国家森林公园 | [2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm](https://commons.wikimedia.org/wiki/File:2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm) | 中国新闻网 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | 中新网短讯，前半段为张家界武陵源雪后云海 |
@@ -121,44 +121,33 @@
 | 丽江古城 | [Lijiang,_Yunnan_The_Most_Beautiful_Fairytale_Town_in_China_(4K_UHD).webm](https://commons.wikimedia.org/wiki/File:Lijiang,_Yunnan_The_Most_Beautiful_Fairytale_Town_in_China_(4K_UHD).webm) | DuckTravel (World Tourist Channel) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |  |
 | 苏州拙政园 | 见第四节 | — | — | — |
 | 上海外滩 | [Shanghai_Bund,_Lujiazui_Skyline_Timelapse.webm](https://commons.wikimedia.org/wiki/File:Shanghai_Bund,_Lujiazui_Skyline_Timelapse.webm) | Yigang Yu | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) |  |
-| 曲阜三孔 | 见第四节 | — | — | — |
-| 峨眉山 | 见第四节 | — | — | — |
+| 曲阜三孔 | 无（目前没有可直接播放的稳定外链） | — | — | — |
+| 峨眉山 | 无（目前没有可直接播放的稳定外链） | — | — | — |
 | 乐山大佛 | 见第四节 | — | — | — |
 | 重庆洪崖洞 | 见第四节 | — | — | — |
 | 敦煌莫高窟 | [Mogao_Caves_2014.webmhd.webm](https://commons.wikimedia.org/wiki/File:Mogao_Caves_2014.webmhd.webm) | Bairuilong | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |  |
 | 三亚亚龙湾 | 见第四节 | — | — | — |
 | 哈尔滨中央大街 | [Zhongyang_Dajie,_Harbin.webm](https://commons.wikimedia.org/wiki/File:Zhongyang_Dajie,_Harbin.webm) | Techyan | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |  |
 | 张掖丹霞 | 见第四节 | — | — | — |
-| 黄果树瀑布 | [2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm](https://commons.wikimedia.org/wiki/File:2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm) | 中国新闻网 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | 中新网短讯，与张家界共用；后半段为黄果树瀑布雪景。已由第四节 B 站片段替换（仅课程展示） |
-| 平遥古城 | 见第四节 | — | — | — |
+| 黄果树瀑布 | [2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm](https://commons.wikimedia.org/wiki/File:2019%E5%B9%B41%E6%9C%883%E6%97%A5_%E5%BC%A0%E5%AE%B6%E7%95%8C%E9%9B%AA%E5%90%8E%E9%9B%BE%E5%87%87%E4%BA%91%E6%B5%B7%E6%9C%A6%E8%83%A7%E5%A6%82%E4%BB%99%E5%A2%83.webm) | 中国新闻网 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | 中新网短讯，与张家界共用；后半段为黄果树瀑布雪景 |
+| 平遥古城 | 无（目前没有可直接播放的稳定外链） | — | — | — |
 
-## 四、补充视频（B 站，仅课程展示）
 
-生成来源：2026-10-30 的景点补充视频素材包。文件在 `frontend/public/media/videos/<slug>.mp4`，页面地址是 `/media/videos/<slug>.mp4`。
+## 四、补充视频（Archive.org 外链，仅课程展示）
 
-> **授权状态**：以下片段均来自 B 站公开视频，版权归原作者所有，**不是** CC 授权，也未取得商用或公开传播许可。
-> 仅用于课程展示、学习与答辩演示；公开发布或商用前必须替换为授权素材，或联系 UP 主取得书面授权。
+这 9 条不放进仓库，`video_url` 直接使用带 `#t=` 的播放地址，浏览器从指定秒数开始播。国内部分网络访问 Archive.org 可能较慢或无法打开。峨眉山、曲阜三孔、平遥古城目前没有介绍视频。
 
-### 补齐原「无视频」的 12 个景点
+> **授权状态**：以下内容来自 Archive.org 的镜像或上传，版权归原作者所有，**不是** CC 授权，也未标注开放许可。
+> 仅用于课程展示、学习与答辩演示；公开发布或商用前必须替换为授权素材。
 
-| 景点 | 文件 | 作者 | 授权/使用范围 | 原始页面 | 说明 |
+| 景点 | 视频 | 作者 | 授权/使用范围 | 原始页面 | 说明 |
 |---|---|---|---|---|---|
-| 九寨沟 | `frontend/public/media/videos/jiuzhaigou.mp4` | NoOne晓东 | B站 BV1MCUVB3EVF（版权所有，仅课程展示） | [BV1MCUVB3EVF](https://www.bilibili.com/video/BV1MCUVB3EVF) | 20 秒节选（原片 3:22，从 1:18 起） |
-| 桂林漓江 | `frontend/public/media/videos/lijiang_guilin.mp4` | 迈悦旅行家 | B站 BV1e7411M73E（版权所有，仅课程展示） | [BV1e7411M73E](https://www.bilibili.com/video/BV1e7411M73E) | 20 秒节选（原片 2:54，从 1:16 起） |
-| 厦门鼓浪屿 | `frontend/public/media/videos/gulangyu.mp4` | 陈小羊看世界 | B站 BV17V4y1e7tU（版权所有，仅课程展示） | [BV17V4y1e7tU](https://www.bilibili.com/video/BV17V4y1e7tU) | 20 秒节选（原片 2:08，从 0:25 起） |
-| 泰山 | `frontend/public/media/videos/taishan.mp4` | 信标工坊 | B站 BV1dH28YPEtt（版权所有，仅课程展示） | [BV1dH28YPEtt](https://www.bilibili.com/video/BV1dH28YPEtt) | 20 秒节选（原片 1:12，从 0:28 起） |
-| 苏州拙政园 | `frontend/public/media/videos/zhuozhengyuan.mp4` | 楚狂-漫游中国 | B站 BV1yw411872w（版权所有，仅课程展示） | [BV1yw411872w](https://www.bilibili.com/video/BV1yw411872w) | 20 秒节选（原片 46:16，从 29:26 起） |
-| 曲阜三孔 | `frontend/public/media/videos/qufu_sankong.mp4` | 遠漂記 | B站 BV1P54y1S7fh（版权所有，仅课程展示） | [BV1P54y1S7fh](https://www.bilibili.com/video/BV1P54y1S7fh) | 20 秒节选（原片 4:37，从 0:30 起） |
-| 峨眉山 | `frontend/public/media/videos/emeishan.mp4` | CC航拍 | B站 BV1BV411K71r（版权所有，仅课程展示） | [BV1BV411K71r](https://www.bilibili.com/video/BV1BV411K71r) | 20 秒节选（原片 1:01，从 0:34 起） |
-| 乐山大佛 | `frontend/public/media/videos/leshan_dafo.mp4` | 著名电影电视剧观众w | B站 BV1BV4y1M7Qa（版权所有，仅课程展示） | [BV1BV4y1M7Qa](https://www.bilibili.com/video/BV1BV4y1M7Qa) | 20 秒节选（原片 2:07，从 0:20 起） |
-| 重庆洪崖洞 | `frontend/public/media/videos/hongyadong.mp4` | 躺下等存款自己增加 | B站 BV1DCo1Y8EMw（版权所有，仅课程展示） | [BV1DCo1Y8EMw](https://www.bilibili.com/video/BV1DCo1Y8EMw) | 20 秒节选（原片 1:58，从 1:04 起） |
-| 三亚亚龙湾 | `frontend/public/media/videos/yalongwan.mp4` | 渣渣辉摄影 | B站 BV1iRWNzWERq（版权所有，仅课程展示） | [BV1iRWNzWERq](https://www.bilibili.com/video/BV1iRWNzWERq) | 20 秒节选（原片 1:25，从 1:00 起） |
-| 张掖丹霞 | `frontend/public/media/videos/zhangye_danxia.mp4` | ChinaEX123 | B站 BV1oT4y1L7FZ（版权所有，仅课程展示） | [BV1oT4y1L7FZ](https://www.bilibili.com/video/BV1oT4y1L7FZ) | 20 秒节选（原片 6:42，从 0:40 起） |
-| 平遥古城 | `frontend/public/media/videos/pingyao.mp4` | 月翼之一 | B站 BV1rp4y147KH（版权所有，仅课程展示） | [BV1rp4y147KH](https://www.bilibili.com/video/BV1rp4y147KH) | 20 秒节选（原片 3:42，从 0:20 起） |
-
-### 替换原有借用视频
-
-| 景点 | 文件 | 作者 | 授权/使用范围 | 原始页面 | 说明 |
-|---|---|---|---|---|---|
-| 八达岭长城 | `frontend/public/media/videos/badaling.mp4` | 潇庭木下 | B站 BV1y4411y7Ji（版权所有，仅课程展示） | [BV1y4411y7Ji](https://www.bilibili.com/video/BV1y4411y7Ji) | 20 秒节选（原片 1:31，从 0:18 起）；用于替换原有借用视频 |
-| 黄果树瀑布 | `frontend/public/media/videos/huangguoshu.mp4` | DANC弹壳 | B站 BV1UW4y1b7w9（版权所有，仅课程展示） | [BV1UW4y1b7w9](https://www.bilibili.com/video/BV1UW4y1b7w9) | 20 秒节选（原片 3:39，从 2:20 起）；用于替换原有借用视频 |
+| 九寨沟 | [The Tour Of Jiuzhaigou (2000) DVD](https://archive.org/download/the-tour-of-jiuzhaigou-2000-dvd/TheTourOfJiuzhaigou%282000%29DVD.mp4#t=298) | Archive.org 上传者 | archive.org（版权归原作者，仅课程展示） | [the-tour-of-jiuzhaigou-2000-dvd](https://archive.org/details/the-tour-of-jiuzhaigou-2000-dvd) | 对得上，从 4:58 起。2000 年九寨沟旅游 DVD，480p；从 4:58 的彩色湖泊开始播放。 |
+| 桂林漓江 | [SEG234 Great Getaways - Guilin Li River Cruise](https://archive.org/download/SEG234GreatGetawaysTamaraLynnScottGuilinLiRiverCruise/234GuilinLiRiverCruise.mp4#t=80) | Tamara Lynn Scott / Great Getaways | archive.org（版权归原作者，仅课程展示） | [SEG234GreatGetawaysTamaraLynnScottGuilinLiRiverCruise](https://archive.org/details/SEG234GreatGetawaysTamaraLynnScottGuilinLiRiverCruise) | 对得上，从 1:20 起。漓江游船实拍，480p；从 1:20 的喀斯特峰林段开始。 |
+| 泰山 | [和26000人一起夜爬泰山，日出好美！](https://archive.org/download/BiliBili-BV1L8411278C_p1-C7L1VB/BV1L8411278C_p1.ia.mp4#t=940) | B 站 UP 主（画面水印：王师傅和小毛毛） | archive.org（版权归原作者，仅课程展示） | [BiliBili-BV1L8411278C_p1-C7L1VB](https://archive.org/details/BiliBili-BV1L8411278C_p1-C7L1VB) | 对得上，从 15:40 起。夜爬泰山 vlog，960×480；从 15:40 的日出/山顶段开始，画面有 vlog 字幕。 |
+| 苏州拙政园 | [Around the World in 80 Gardens 6: China and Japan](https://archive.org/download/AroundTheWorldIn80Gardens6ChinaAndJapan/AroundTheWorldIn80Gardens6.mp4#t=75) | BBC / Monty Don | archive.org（版权归原作者，仅课程展示） | [AroundTheWorldIn80Gardens6ChinaAndJapan](https://archive.org/details/AroundTheWorldIn80Gardens6ChinaAndJapan) | 同区域，从 1:15 起。苏州古典园林段落，360p，有解说与人物；从 1:15 开始。不能确认就是拙政园本体，按“苏州园林”参考。 |
+| 乐山大佛 | [This Giant Buddha Was Built to Protect Passing Boats](https://archive.org/download/ThisGiantBuddhaWasBuiltToProtectPassingBoats/This%20Giant%20Buddha%20Was%20Built%20to%20Protect%20Passing%20Boats%20%282%29.mp4#t=30) | Smithsonian Channel | archive.org（版权归原作者，仅课程展示） | [ThisGiantBuddhaWasBuiltToProtectPassingBoats](https://archive.org/details/ThisGiantBuddhaWasBuiltToProtectPassingBoats) | 对得上，从 0:30 起。1080p 乐山大佛专题短片；从 0:30 开始，推荐。 |
+| 张掖丹霞 | [Danxia Landform at Nantaizi village of Nijiaying town](https://archive.org/download/youtube-uEocv4CWEFE/uEocv4CWEFE.mp4#t=12) | YouTube 上传者（Archive.org 镜像） | archive.org（版权归原作者，仅课程展示） | [youtube-uEocv4CWEFE](https://archive.org/details/youtube-uEocv4CWEFE) | 对得上，从 0:12 起。张掖丹霞地貌实拍，480p，47 秒；从 0:12 开始，推荐。 |
+| 厦门鼓浪屿 | [【晓丹】你的女友〔叮咚！请签收来自厦门鼓浪屿的小女友〕](https://archive.org/download/BiliBili-BV15W411P7GY/BV15W411P7GY.mp4#t=207) | B 站 UP 主 晓丹 | archive.org（版权归原作者，仅课程展示） | [BiliBili-BV15W411P7GY](https://archive.org/details/BiliBili-BV15W411P7GY) | 相关，从 3:27 起。在鼓浪屿取景的舞蹈视频，画面以人物为主，不是纯风景；仅作“相关”参考。 |
+| 三亚亚龙湾 | [【寄居蟹】三亚亚龙湾海里飞奔的寄居蟹](https://archive.org/download/BiliBili-BV16t411w7HJ_p1-JH8VB/BV16t411w7HJ_p1.mp4#t=20) | B 站 UP 主（Archive.org 镜像） | archive.org（版权归原作者，仅课程展示） | [BiliBili-BV16t411w7HJ_p1-JH8VB](https://archive.org/details/BiliBili-BV16t411w7HJ_p1-JH8VB) | 相关，从 0:20 起。亚龙湾沙滩寄居蟹特写，1080p；能证明地点，但不是海湾全景，仅作“相关”参考。 |
+| 重庆洪崖洞 | [【4K】重庆 Chongqing Aerial Photography 换个角度看重庆](https://archive.org/download/4kchongqingaerialphotography/%E3%80%904K%E3%80%91%E9%87%8D%E5%BA%86%20Chongqing%20Aerial%20photography%20%E6%8D%A2%E4%B8%AA%E8%A7%92%E5%BA%A6%E7%9C%8B%E9%87%8D%E5%BA%86.mp4#t=12) | 彭俊（片尾署名） | archive.org（版权归原作者，仅课程展示） | [4kchongqingaerialphotography](https://archive.org/details/4kchongqingaerialphotography) | 相关，从 0:12 起。重庆城市航拍，1080p，但没有洪崖洞特写；仅作“重庆城市”参考，不建议直接当洪崖洞视频。 |

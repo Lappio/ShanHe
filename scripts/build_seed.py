@@ -4,8 +4,7 @@
 
 图片文件放在 frontend/public/media/images/，与 manifest 里的 file 字段对应。
 封面用缩略图，画廊用大图，video_url 只在 manifest 提供时写入。
-本地介绍视频放在 frontend/public/media/videos/<slug>.mp4，地址写成 /media/videos/<slug>.mp4。
-重新生成种子时不要删除 videos/，否则清单里的本地地址会指向空文件。
+介绍视频是外链（Wikimedia 或 Archive.org），不把视频文件放进仓库。
 """
 import colorsys
 import json
@@ -377,7 +376,7 @@ NEWS = [
     ("热门景区继续实行分时预约", "十一前后及周末，故宫、九寨沟、莫高窟等景区按日放票。请先注册并在门票页选择日期，订单以提交成功为准。",
      "为了避免现场排队，山河纪演示环境中的热门景点都要求先选日期和票种。\n\n同一证件在同一游玩日只保留一笔有效订单。取消订单会把库存退回，但请尽量提前操作。\n\n本公告为课程演示文案，实际出行请以景区官方公告为准。"),
     ("关于演示环境与票价的说明", "本站票价、开放时间和库存均为课程设计数据，不代表景区实时公示。",
-     "山河纪是 Web 编程实践课程的综合项目，用于演示前后端分离、预约、游记审核和数据统计。\n\n景点介绍与图片来自随项目提供的媒体包，照片为 Wikimedia Commons 上的自由授权作品，作者和协议写在每张图下方，汇总见网站《素材署名》。一部分介绍视频仍使用 Wikimedia 文件地址。九寨沟等 14 个景点使用放在 /media/videos/ 的本地 MP4，来自 B 站公开片段，仅供课程展示，版权归原作者。\n\n请勿将演示订单用于真实出行。"),
+     "山河纪是 Web 编程实践课程的综合项目，用于演示前后端分离、预约、游记审核和数据统计。\n\n景点介绍与图片来自随项目提供的媒体包，照片为 Wikimedia Commons 上的自由授权作品，作者和协议写在每张图下方，汇总见网站《素材署名》。一部分介绍视频仍使用 Wikimedia 文件地址。九寨沟等 9 个景点使用 Archive.org 外链，仅供课程展示，版权归原作者；国内部分网络可能较慢。峨眉山、曲阜三孔、平遥古城目前没有介绍视频。\n\n请勿将演示订单用于真实出行。"),
     ("九寨沟秋季彩林观赏提示", "秋季是九寨沟最繁忙的季节，观光车班次会加密，仍建议按预约时段入沟。",
      "彩林通常出现在十月前后，具体变色进度每年不同。沟内温差大，薄外套比厚毛衣更灵活。\n\n诺日朗服务点午餐排队较长，可自带简单食物。不要离开栈道靠近钙化堤坝。"),
     ("故宫博物院周一闭馆提醒", "除法定节假日外，故宫博物院周一闭馆。请不要把行程死死卡在周一。",
@@ -422,18 +421,17 @@ def main():
     spot_index = {spot["name"]: i + 1 for i, spot in enumerate(pack_spots)}
     slug_of = {spot["name"]: spot["slug"] for spot in pack_spots}
 
-    # 只清掉早期占位目录。videos/ 里是已入库的介绍视频，重新生成时必须保留。
+    # 只清掉早期占位目录。介绍视频是外链，这里不创建 videos/。
     for folder in ("spots", "banners", "routes", "notes", "news"):
         stale = MEDIA / folder
         if stale.exists():
             shutil.rmtree(stale)
     (MEDIA / "avatars").mkdir(parents=True, exist_ok=True)
     (MEDIA / "images").mkdir(parents=True, exist_ok=True)
-    (MEDIA / "videos").mkdir(parents=True, exist_ok=True)
 
     lines = [
         "-- 山河纪演示数据。票价与开放时间仅供课程展示，以景区公示为准。",
-        "-- 图片与视频地址来自 docs/media-manifest.json。图片在 /media/images/，本地介绍视频在 /media/videos/。",
+        "-- 图片与视频地址来自 docs/media-manifest.json。图片在 /media/images/，介绍视频为外链。",
         "USE shanhe;",
         "SET NAMES utf8mb4;",
         "SET FOREIGN_KEY_CHECKS = 0;",
@@ -476,10 +474,6 @@ def main():
             )
         video = spot.get("video") or {}
         video_url = (video.get("url") or "").strip() or None
-        if video_url and video_url.startswith("/media/videos/"):
-            local_video = MEDIA / video_url.removeprefix("/media/").lstrip("/")
-            if not local_video.is_file():
-                raise SystemExit("manifest 指向的本地视频不存在，拒绝生成空地址: " + str(local_video))
         summary = spot["intro"].strip()
         if len(summary) > 220:
             summary = summary[:218] + "…"

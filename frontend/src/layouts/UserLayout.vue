@@ -66,7 +66,7 @@
           <div>
             <h4>说明</h4>
             <p>本站为 Web 编程实践课程设计。票价、库存与开放时间仅供演示，不能作为入园凭证。</p>
-            <p><a href="/ATTRIBUTION.md">素材署名</a>：照片来自 Wikimedia Commons，使用 CC0、CC BY 或 CC BY-SA。部分介绍视频是 B 站公开片段的本地副本，仅供课程展示，版权归原作者。</p>
+            <p><a href="/ATTRIBUTION.md">素材署名</a>：照片来自 Wikimedia Commons，使用 CC0、CC BY 或 CC BY-SA。部分介绍视频是 Archive.org 外链，仅供课程展示，版权归原作者。</p>
           </div>
         </div>
         <div class="copy">山河纪 · 全国热门景点文旅门户 · 图片与视频地址来自景点数据，署名见 <a href="/ATTRIBUTION.md">素材说明</a></div>
