@@ -5,6 +5,7 @@ dist/
 *.iml
 .DS_Store
 uploads/
+.shanhe-local/
 *.log
 .vite/
 playwright-report/

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""给已经导入的 shanhe 库补 token_version、可空起价和 CHECK。可重复执行。"""
+"""给已经导入的 shanhe 库补 token_version、可空起价和 CHECK。可重复执行。
+
+默认连本机 MySQL 127.0.0.1:3306。Docker Compose 把 MySQL 发布在
+SHANHE_MYSQL_PORT（默认 13306）；连那个库时设置 SHANHE_DB_PORT，或传 --port。
+"""
 import argparse
 import os
 import subprocess
@@ -26,7 +30,12 @@ CHECKS = [
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--host", default=os.environ.get("SHANHE_DB_HOST", "127.0.0.1"))
-    parser.add_argument("--port", type=int, default=int(os.environ.get("SHANHE_DB_PORT", "3306")))
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=int(os.environ.get("SHANHE_DB_PORT", "3306")),
+        help="本机 MySQL 为 3306。Compose 宿主机端口见 SHANHE_MYSQL_PORT，默认 13306",
+    )
     parser.add_argument("--user", default=os.environ.get("SHANHE_DB_USER", "shanhe"))
     parser.add_argument("--password", default=os.environ.get("SHANHE_DB_PASSWORD", "shanhe123"))
     parser.add_argument("--database", default=os.environ.get("SHANHE_DB_NAME", "shanhe"))

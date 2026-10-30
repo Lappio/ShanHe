@@ -5,6 +5,8 @@
 库存修改包在 try 里，finally 无论登录失败或线程抛错都会改回原库存。
 连接参数来自命令行或环境变量，不使用 sudo mysql。
 若指定游玩日已经有未取消订单，在改库存之前退出。
+默认连本机 MySQL 127.0.0.1:3306。Docker Compose 的宿主机端口是
+SHANHE_MYSQL_PORT（默认 13306），连那个库时设置 SHANHE_DB_PORT 或传 --port。
 """
 import argparse
 import json
@@ -22,7 +24,12 @@ BASE = os.environ.get("SHANHE_API", "http://127.0.0.1:8088/api")
 def parse_args():
     parser = argparse.ArgumentParser(description="并发预约超卖检查")
     parser.add_argument("--host", default=os.environ.get("SHANHE_DB_HOST", "127.0.0.1"))
-    parser.add_argument("--port", type=int, default=int(os.environ.get("SHANHE_DB_PORT", "3306")))
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=int(os.environ.get("SHANHE_DB_PORT", "3306")),
+        help="本机 MySQL 为 3306。Compose 宿主机端口见 SHANHE_MYSQL_PORT，默认 13306",
+    )
     parser.add_argument("--user", default=os.environ.get("SHANHE_DB_USER", "shanhe"))
     parser.add_argument("--password", default=os.environ.get("SHANHE_DB_PASSWORD", "shanhe123"))
     parser.add_argument("--database", default=os.environ.get("SHANHE_DB_NAME", "shanhe"))

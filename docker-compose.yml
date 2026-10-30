@@ -1,3 +1,5 @@
+name: shanhe
+
 services:
   mysql:
     image: mysql:8.0
@@ -12,7 +14,7 @@ services:
       - --collation-server=utf8mb4_unicode_ci
       - --default-time-zone=+08:00
     ports:
-      - "3306:3306"
+      - "${SHANHE_MYSQL_PORT:-13306}:3306"
     volumes:
       - shanhe-mysql:/var/lib/mysql
       - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
@@ -36,7 +38,7 @@ services:
       SPRING_DATASOURCE_PASSWORD: root123
       TZ: Asia/Shanghai
     ports:
-      - "8088:8088"
+      - "${SHANHE_BACKEND_PORT:-8088}:8088"
 
   frontend:
     build: ./frontend
@@ -45,7 +47,7 @@ services:
     depends_on:
       - backend
     ports:
-      - "43123:80"
+      - "${SHANHE_FRONTEND_PORT:-43123}:80"
 
 volumes:
   shanhe-mysql:
