@@ -282,7 +282,17 @@
         }
       ],
       "thumb": "images/jiuzhaigou_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/the-tour-of-jiuzhaigou-2000-dvd/TheTourOfJiuzhaigou%282000%29DVD.mp4#t=298",
+        "author": "archive.org · Archive.org 上传者",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/the-tour-of-jiuzhaigou-2000-dvd",
+        "platform": "archive.org",
+        "item": "the-tour-of-jiuzhaigou-2000-dvd",
+        "match": "exact",
+        "clip_note": "2000 年九寨沟旅游 DVD，480p；从 4:58 的彩色湖泊开始播放。",
+        "start_seconds": 298
+      }
     },
     {
       "name": "秦始皇兵马俑",
@@ -372,7 +382,17 @@
         }
       ],
       "thumb": "images/lijiang_guilin_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/SEG234GreatGetawaysTamaraLynnScottGuilinLiRiverCruise/234GuilinLiRiverCruise.mp4#t=80",
+        "author": "archive.org · Tamara Lynn Scott / Great Getaways",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/SEG234GreatGetawaysTamaraLynnScottGuilinLiRiverCruise",
+        "platform": "archive.org",
+        "item": "SEG234GreatGetawaysTamaraLynnScottGuilinLiRiverCruise",
+        "match": "exact",
+        "clip_note": "漓江游船实拍，480p；从 1:20 的喀斯特峰林段开始。",
+        "start_seconds": 80
+      }
     },
     {
       "name": "布达拉宫",
@@ -462,7 +482,17 @@
         }
       ],
       "thumb": "images/gulangyu_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/BiliBili-BV15W411P7GY/BV15W411P7GY.mp4#t=207",
+        "author": "archive.org · B 站 UP 主 晓丹",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/BiliBili-BV15W411P7GY",
+        "platform": "archive.org",
+        "item": "BiliBili-BV15W411P7GY",
+        "match": "related",
+        "clip_note": "在鼓浪屿取景的舞蹈视频，画面以人物为主，不是纯风景；仅作“相关”参考。",
+        "start_seconds": 207
+      }
     },
     {
       "name": "泰山",
@@ -504,7 +534,17 @@
         }
       ],
       "thumb": "images/taishan_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/BiliBili-BV1L8411278C_p1-C7L1VB/BV1L8411278C_p1.ia.mp4#t=940",
+        "author": "archive.org · B 站 UP 主（画面水印：王师傅和小毛毛）",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/BiliBili-BV1L8411278C_p1-C7L1VB",
+        "platform": "archive.org",
+        "item": "BiliBili-BV1L8411278C_p1-C7L1VB",
+        "match": "exact",
+        "clip_note": "夜爬泰山 vlog，960×480；从 15:40 的日出/山顶段开始，画面有 vlog 字幕。",
+        "start_seconds": 940
+      }
     },
     {
       "name": "丽江古城",
@@ -594,7 +634,17 @@
         }
       ],
       "thumb": "images/zhuozhengyuan_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/AroundTheWorldIn80Gardens6ChinaAndJapan/AroundTheWorldIn80Gardens6.mp4#t=75",
+        "author": "archive.org · BBC / Monty Don",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/AroundTheWorldIn80Gardens6ChinaAndJapan",
+        "platform": "archive.org",
+        "item": "AroundTheWorldIn80Gardens6ChinaAndJapan",
+        "match": "area",
+        "clip_note": "苏州古典园林段落，360p，有解说与人物；从 1:15 开始。不能确认就是拙政园本体，按“苏州园林”参考。",
+        "start_seconds": 75
+      }
     },
     {
       "name": "上海外滩",
@@ -768,7 +818,17 @@
         }
       ],
       "thumb": "images/leshan_dafo_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/ThisGiantBuddhaWasBuiltToProtectPassingBoats/This%20Giant%20Buddha%20Was%20Built%20to%20Protect%20Passing%20Boats%20%282%29.mp4#t=30",
+        "author": "archive.org · Smithsonian Channel",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/ThisGiantBuddhaWasBuiltToProtectPassingBoats",
+        "platform": "archive.org",
+        "item": "ThisGiantBuddhaWasBuiltToProtectPassingBoats",
+        "match": "exact",
+        "clip_note": "1080p 乐山大佛专题短片；从 0:30 开始，推荐。",
+        "start_seconds": 30
+      }
     },
     {
       "name": "重庆洪崖洞",
@@ -810,7 +870,17 @@
         }
       ],
       "thumb": "images/hongyadong_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/4kchongqingaerialphotography/%E3%80%904K%E3%80%91%E9%87%8D%E5%BA%86%20Chongqing%20Aerial%20photography%20%E6%8D%A2%E4%B8%AA%E8%A7%92%E5%BA%A6%E7%9C%8B%E9%87%8D%E5%BA%86.mp4#t=12",
+        "author": "archive.org · 彭俊（片尾署名）",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/4kchongqingaerialphotography",
+        "platform": "archive.org",
+        "item": "4kchongqingaerialphotography",
+        "match": "related",
+        "clip_note": "重庆城市航拍，1080p，但没有洪崖洞特写；仅作“重庆城市”参考，不建议直接当洪崖洞视频。",
+        "start_seconds": 12
+      }
     },
     {
       "name": "敦煌莫高窟",
@@ -900,7 +970,17 @@
         }
       ],
       "thumb": "images/yalongwan_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/BiliBili-BV16t411w7HJ_p1-JH8VB/BV16t411w7HJ_p1.mp4#t=20",
+        "author": "archive.org · B 站 UP 主（Archive.org 镜像）",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/BiliBili-BV16t411w7HJ_p1-JH8VB",
+        "platform": "archive.org",
+        "item": "BiliBili-BV16t411w7HJ_p1-JH8VB",
+        "match": "related",
+        "clip_note": "亚龙湾沙滩寄居蟹特写，1080p；能证明地点，但不是海湾全景，仅作“相关”参考。",
+        "start_seconds": 20
+      }
     },
     {
       "name": "哈尔滨中央大街",
@@ -990,7 +1070,17 @@
         }
       ],
       "thumb": "images/zhangye_danxia_thumb.webp",
-      "video": null
+      "video": {
+        "url": "https://archive.org/download/youtube-uEocv4CWEFE/uEocv4CWEFE.mp4#t=12",
+        "author": "archive.org · YouTube 上传者（Archive.org 镜像）",
+        "license": "版权归原作者，仅课程展示",
+        "source_page": "https://archive.org/details/youtube-uEocv4CWEFE",
+        "platform": "archive.org",
+        "item": "youtube-uEocv4CWEFE",
+        "match": "exact",
+        "clip_note": "张掖丹霞地貌实拍，480p，47 秒；从 0:12 开始，推荐。",
+        "start_seconds": 12
+      }
     },
     {
       "name": "黄果树瀑布",

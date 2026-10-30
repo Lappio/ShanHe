@@ -45,7 +45,9 @@ docker compose up --build
 
 ## 图片与视频
 
-景点图、缩略图和首页横幅在 `frontend/public/media/images/`，都是 WebP。数据库只保存路径：`scenic_spot.cover_url`、`scenic_spot.video_url`、`spot_image.url`。作者、协议和原始页面见 [docs/ATTRIBUTION.md](docs/ATTRIBUTION.md)。介绍视频使用 Wikimedia 的文件地址，不把视频文件放进仓库。
+景点图、缩略图和首页横幅在 `frontend/public/media/images/`，都是 WebP。介绍视频不放进仓库：一部分仍是 Wikimedia 文件地址，九寨沟等 9 个景点使用 Archive.org 外链（地址里的 `#t=` 是起播秒数）。这些外链版权归原作者，仅供课程展示，国内部分网络可能较慢。峨眉山、曲阜三孔、平遥古城目前没有介绍视频，详情页只提示浏览图集。作者和原始页面见 [docs/ATTRIBUTION.md](docs/ATTRIBUTION.md)。
+
+已经初始化过的数据库不会自动重跑 `sql/data.sql`。要给旧库改地址，执行 `sql/update_video_url.sql`。
 
 重新生成演示数据：
 
