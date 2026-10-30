@@ -197,6 +197,7 @@ button.hero { display: block; width: 100%; border: 0; padding: 0; text-align: le
 .auth-visual div { position: relative; z-index: 1; }
 .auth-panel { background: var(--paper-2); display: flex; align-items: center; justify-content: center; padding: 32px 20px; }
 .auth-card { width: min(420px, 100%); }
+.account-hint { background: #f7f1e4; border-radius: 12px; padding: 10px 12px; font-size: 13px; line-height: 1.7; color: var(--ink-2); }
 
 .comment { display: flex; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--line); }
 .avatar, .avatar-lg {
